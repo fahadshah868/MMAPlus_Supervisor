@@ -442,8 +442,6 @@ public class CustomKeywordsCollection {
 			else if(productname.equals("Additional Picture")){
 				flag = flag+1
 				driver.findElementByXPath("//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.ListView[1]/android.widget.LinearLayout["+i+"]").click()
-				Mobile.verifyElementExist(findTestObject("Object Repository/CommonScreenElements/Validate_InfoPopUP"), 0)
-				Mobile.tap(findTestObject("Object Repository/CommonScreenElements/InfoPopUp_YesButton"), 0)
 				Mobile.callTestCase(findTestCase("Test Cases/WW/ShopOpen/AdditionalPicture/OverwriteAdditionalPicture"), null)
 			}
 			//			else if(productname.equals("Competition Tracking")){
@@ -516,8 +514,6 @@ public class CustomKeywordsCollection {
 					_flag = true
 					lastvisitedproduct = "Additional Picture"
 					driver.findElementByXPath("//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.ListView[1]/android.widget.LinearLayout["+index+"]").click()
-					Mobile.verifyElementExist(findTestObject("Object Repository/CommonScreenElements/Validate_InfoPopUP"), 0)
-					Mobile.tap(findTestObject("Object Repository/CommonScreenElements/InfoPopUp_YesButton"), 0)
 					Mobile.callTestCase(findTestCase("Test Cases/WW/ShopOpen/AdditionalPicture/OverwriteAdditionalPicture"), null)
 				}
 				//				else if(lastitemnameafterswipe.equals("Competition Tracking")){
@@ -1408,80 +1404,80 @@ public class CustomKeywordsCollection {
 		catch (InterruptedException e1) {
 			e1.printStackTrace()
 		}
-//		Mobile.swipe(0, 370, 0,200)
-//		while(true){
-//			index = driver.findElementsByXPath("//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.GridView[1]/*").size()
-//			MobileElement productbeforeswipe = driver.findElementByXPath("//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.GridView[1]/android.widget.RelativeLayout["+index+"]/android.widget.TextView[1]")
-//			String productnamebeforeswipe = productbeforeswipe.getText()
-//			Mobile.swipe(0, 540, 0, 200)
-//			MobileElement productafterswipe = driver.findElementByXPath("//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.GridView[1]/android.widget.RelativeLayout["+index+"]/android.widget.TextView[1]")
-//			String productnameafterswipe = productafterswipe.getText()
-//			if(productnamebeforeswipe.equals(productnameafterswipe)){
-//				Mobile.swipe(0, 500, 0, 200)
-//				if(index == 6){
-//					index = index - 2
-//				}
-//				else{
-//					index = index - 1
-//				}
-//				for(int j=3; j<=index; j++){
-//					MobileElement actualimageview = driver.findElementByXPath("//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.GridView[1]/android.widget.RelativeLayout["+j+"]/android.widget.ImageView[1]")
-//
-//					Point actualimagepointer = actualimageview.getLocation()
-//
-//					Image actualimage = fullImg.getSubimage(actualimagepointer.getX(), actualimagepointer.getY(),imagewidth, imageheight)
-//
-//					PixelGrabber grabImage2Pixels = new PixelGrabber(actualimage, 0, 0, -1,-1, false)
-//					int[] image2Data = null
-//					if (grabImage2Pixels.grabPixels()) {
-//						int width = grabImage2Pixels.getWidth()
-//						int height = grabImage2Pixels.getHeight()
-//						image2Data = new int[width * height]
-//						image2Data = (int[]) grabImage2Pixels.getPixels()
-//					}
-//
-//					if(!java.util.Arrays.equals(image1Data, image2Data)){
-//						driver.findElementByXPath("//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.GridView[1]/android.widget.RelativeLayout["+j+"]").click()
-//						Mobile.verifyElementExist(findTestObject("Object Repository/CommonScreenElements/Validate_CameraScreen"), 0)
-//						Mobile.tap(findTestObject("Object Repository/CommonScreenElements/TakePictureButton"), 0)
-//						Mobile.waitForElementPresent(findTestObject("Object Repository/CommonScreenElements/DoneButton"), 0)
-//						Mobile.tap(findTestObject("Object Repository/CommonScreenElements/DoneButton"), 0)
-//					}
-//				}
-//				break
-//			}
-//			else{
-//				if(index == 6){
-//					index = index - 2
-//				}
-//				else{
-//					index = index - 1
-//				}
-//				for(int j=3; j<=index; j++){
-//					MobileElement actualimageview = driver.findElementByXPath("//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.GridView[1]/android.widget.RelativeLayout["+j+"]/android.widget.ImageView[1]")
-//
-//					Point actualimagepointer = actualimageview.getLocation()
-//
-//					Image actualimage = fullImg.getSubimage(actualimagepointer.getX(), actualimagepointer.getY(),imagewidth, imageheight)
-//
-//					PixelGrabber grabImage2Pixels = new PixelGrabber(actualimage, 0, 0, -1,-1, false)
-//					int[] image2Data = null
-//					if (grabImage2Pixels.grabPixels()) {
-//						int width = grabImage2Pixels.getWidth()
-//						int height = grabImage2Pixels.getHeight()
-//						image2Data = new int[width * height]
-//						image2Data = (int[]) grabImage2Pixels.getPixels()
-//					}
-//
-//					if(!java.util.Arrays.equals(image1Data, image2Data)){
-//						driver.findElementByXPath("//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.GridView[1]/android.widget.RelativeLayout["+j+"]").click()
-//						Mobile.verifyElementExist(findTestObject("Object Repository/CommonScreenElements/Validate_CameraScreen"), 0)
-//						Mobile.tap(findTestObject("Object Repository/CommonScreenElements/TakePictureButton"), 0)
-//						Mobile.waitForElementPresent(findTestObject("Object Repository/CommonScreenElements/DoneButton"), 0)
-//						Mobile.tap(findTestObject("Object Repository/CommonScreenElements/DoneButton"), 0)
-//					}
-//				}
-//			}
-//		}
+		//		Mobile.swipe(0, 370, 0,200)
+		//		while(true){
+		//			index = driver.findElementsByXPath("//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.GridView[1]/*").size()
+		//			MobileElement productbeforeswipe = driver.findElementByXPath("//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.GridView[1]/android.widget.RelativeLayout["+index+"]/android.widget.TextView[1]")
+		//			String productnamebeforeswipe = productbeforeswipe.getText()
+		//			Mobile.swipe(0, 540, 0, 200)
+		//			MobileElement productafterswipe = driver.findElementByXPath("//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.GridView[1]/android.widget.RelativeLayout["+index+"]/android.widget.TextView[1]")
+		//			String productnameafterswipe = productafterswipe.getText()
+		//			if(productnamebeforeswipe.equals(productnameafterswipe)){
+		//				Mobile.swipe(0, 500, 0, 200)
+		//				if(index == 6){
+		//					index = index - 2
+		//				}
+		//				else{
+		//					index = index - 1
+		//				}
+		//				for(int j=3; j<=index; j++){
+		//					MobileElement actualimageview = driver.findElementByXPath("//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.GridView[1]/android.widget.RelativeLayout["+j+"]/android.widget.ImageView[1]")
+		//
+		//					Point actualimagepointer = actualimageview.getLocation()
+		//
+		//					Image actualimage = fullImg.getSubimage(actualimagepointer.getX(), actualimagepointer.getY(),imagewidth, imageheight)
+		//
+		//					PixelGrabber grabImage2Pixels = new PixelGrabber(actualimage, 0, 0, -1,-1, false)
+		//					int[] image2Data = null
+		//					if (grabImage2Pixels.grabPixels()) {
+		//						int width = grabImage2Pixels.getWidth()
+		//						int height = grabImage2Pixels.getHeight()
+		//						image2Data = new int[width * height]
+		//						image2Data = (int[]) grabImage2Pixels.getPixels()
+		//					}
+		//
+		//					if(!java.util.Arrays.equals(image1Data, image2Data)){
+		//						driver.findElementByXPath("//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.GridView[1]/android.widget.RelativeLayout["+j+"]").click()
+		//						Mobile.verifyElementExist(findTestObject("Object Repository/CommonScreenElements/Validate_CameraScreen"), 0)
+		//						Mobile.tap(findTestObject("Object Repository/CommonScreenElements/TakePictureButton"), 0)
+		//						Mobile.waitForElementPresent(findTestObject("Object Repository/CommonScreenElements/DoneButton"), 0)
+		//						Mobile.tap(findTestObject("Object Repository/CommonScreenElements/DoneButton"), 0)
+		//					}
+		//				}
+		//				break
+		//			}
+		//			else{
+		//				if(index == 6){
+		//					index = index - 2
+		//				}
+		//				else{
+		//					index = index - 1
+		//				}
+		//				for(int j=3; j<=index; j++){
+		//					MobileElement actualimageview = driver.findElementByXPath("//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.GridView[1]/android.widget.RelativeLayout["+j+"]/android.widget.ImageView[1]")
+		//
+		//					Point actualimagepointer = actualimageview.getLocation()
+		//
+		//					Image actualimage = fullImg.getSubimage(actualimagepointer.getX(), actualimagepointer.getY(),imagewidth, imageheight)
+		//
+		//					PixelGrabber grabImage2Pixels = new PixelGrabber(actualimage, 0, 0, -1,-1, false)
+		//					int[] image2Data = null
+		//					if (grabImage2Pixels.grabPixels()) {
+		//						int width = grabImage2Pixels.getWidth()
+		//						int height = grabImage2Pixels.getHeight()
+		//						image2Data = new int[width * height]
+		//						image2Data = (int[]) grabImage2Pixels.getPixels()
+		//					}
+		//
+		//					if(!java.util.Arrays.equals(image1Data, image2Data)){
+		//						driver.findElementByXPath("//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.GridView[1]/android.widget.RelativeLayout["+j+"]").click()
+		//						Mobile.verifyElementExist(findTestObject("Object Repository/CommonScreenElements/Validate_CameraScreen"), 0)
+		//						Mobile.tap(findTestObject("Object Repository/CommonScreenElements/TakePictureButton"), 0)
+		//						Mobile.waitForElementPresent(findTestObject("Object Repository/CommonScreenElements/DoneButton"), 0)
+		//						Mobile.tap(findTestObject("Object Repository/CommonScreenElements/DoneButton"), 0)
+		//					}
+		//				}
+		//			}
+		//		}
 	}
 }
