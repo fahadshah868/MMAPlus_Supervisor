@@ -23,25 +23,8 @@ Mobile.swipe(0, 200, 0, 600)
 
 Mobile.swipe(0, 200, 0, 600)
 
-MobileBuiltInKeywords.verifyElementText(findTestObject('ModuleSelectionScreenElements/WW/Validate_ShopListScreen'), 'Shops on Route')
+MobileBuiltInKeywords.verifyElementText(findTestObject('ModuleSelectionScreenElements/WW/ShopOpen/Validate_ShopModulesScreen'), 
+    'Channel: Small Kiryana')
 
-CustomKeywords.'customkeywords.CustomKeywordsCollection.selectShopWithChiller'()
-
-MobileBuiltInKeywords.verifyElementText(findTestObject('ModuleSelectionScreenElements/WW/Validate_ShopOptionsScreen'), 'Options')
-
-MobileBuiltInKeywords.tap(findTestObject('ModuleSelectionScreenElements/WW/StartWorking'), 0)
-
-MobileBuiltInKeywords.verifyElementExist(findTestObject('CommonScreenElements/Validate_InfoPopUP'), 0)
-
-MobileBuiltInKeywords.tap(findTestObject('CommonScreenElements/InfoPopUp_YesButton'), 0)
-
-Mobile.waitForElementPresent(findTestObject('CommonScreenElements/Validate_MapScreen'), 60)
-
-MobileBuiltInKeywords.tap(findTestObject('CommonScreenElements/Location_CheckIn'), 0)
-
-Mobile.verifyElementExist(findTestObject('CommonScreenElements/Validate_InfoPopUP'), 0)
-
-MobileBuiltInKeywords.tap(findTestObject('CommonScreenElements/InfoPopUp_NoButton'), 0)
-
-MobileBuiltInKeywords.verifyElementExist(findTestObject('ModuleSelectionScreenElements/WW/ShopActions_List'), 0)
+CustomKeywords.'customkeywords.CustomKeywordsCollection.overwriteShopProducts'()
 

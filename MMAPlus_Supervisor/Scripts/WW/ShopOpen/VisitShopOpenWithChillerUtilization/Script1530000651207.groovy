@@ -19,29 +19,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.swipe(0, 200, 0, 600)
+MobileBuiltInKeywords.tap(findTestObject('ModuleSelectionScreenElements/WW/ShopOpen/ShopOpen'), 0)
 
-Mobile.swipe(0, 200, 0, 600)
+MobileBuiltInKeywords.verifyElementExist(findTestObject('CommonScreenElements/Validate_CameraScreen'), 0)
 
-MobileBuiltInKeywords.verifyElementText(findTestObject('ModuleSelectionScreenElements/WW/Validate_ShopListScreen'), 'Shops on Route')
+MobileBuiltInKeywords.tap(findTestObject('CommonScreenElements/TakePictureButton'), 0)
 
-CustomKeywords.'customkeywords.CustomKeywordsCollection.selectShopWithChiller'()
+MobileBuiltInKeywords.delay(5)
 
-MobileBuiltInKeywords.verifyElementText(findTestObject('ModuleSelectionScreenElements/WW/Validate_ShopOptionsScreen'), 'Options')
-
-MobileBuiltInKeywords.tap(findTestObject('ModuleSelectionScreenElements/WW/StartWorking'), 0)
-
-MobileBuiltInKeywords.verifyElementExist(findTestObject('CommonScreenElements/Validate_InfoPopUP'), 0)
-
-MobileBuiltInKeywords.tap(findTestObject('CommonScreenElements/InfoPopUp_YesButton'), 0)
-
-Mobile.waitForElementPresent(findTestObject('CommonScreenElements/Validate_MapScreen'), 60)
-
-MobileBuiltInKeywords.tap(findTestObject('CommonScreenElements/Location_CheckIn'), 0)
-
-Mobile.verifyElementExist(findTestObject('CommonScreenElements/Validate_InfoPopUP'), 0)
-
-MobileBuiltInKeywords.tap(findTestObject('CommonScreenElements/InfoPopUp_NoButton'), 0)
-
-MobileBuiltInKeywords.verifyElementExist(findTestObject('ModuleSelectionScreenElements/WW/ShopActions_List'), 0)
+MobileBuiltInKeywords.tap(findTestObject('CommonScreenElements/DoneButton'), 0)
 
