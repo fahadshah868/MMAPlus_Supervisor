@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Visit Shop With Chiller And Overwrite Scenario" time="14" tests="0" failures="7" errors="0">
+   <testsuite name="Visit Shop With Chiller And Overwrite Scenario" tests="0" failures="7" errors="0" time="14" timestamp="2018-06-26 14:45:19" hostname="itcity - DESKTOP-3AG49P4" id="Test Suites/Visit Shop With Chiller And Overwrite Scenario">
+      <properties>
+         <property name="deviceName" value="samsung SM-J110H (Android 4.4.4)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\Git Projects\\MMAPlus_Supervisor\\MMAPlus_Supervisor\\Reports\\Visit Shop With Chiller And Overwrite Scenario\\20180626_144516"/>
+         <property name="logFiles" value="F:\\Git Projects\\MMAPlus_Supervisor\\MMAPlus_Supervisor\\Reports\\Visit Shop With Chiller And Overwrite Scenario\\20180626_144516\\appium.log, F:\\Git Projects\\MMAPlus_Supervisor\\MMAPlus_Supervisor\\Reports\\Visit Shop With Chiller And Overwrite Scenario\\20180626_144516\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="itcity - DESKTOP-3AG49P4"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="deviceModel" value="SM-J110H"/>
+         <property name="hostAddress" value="192.168.3.191"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="11015a1136d0b24a"/>
+         <property name="deviceName" value="samsung SM-J110H (Android 4.4.4)"/>
+         <property name="deviceOSVersion" value="4.4.4"/>
+      </properties>
+      <testcase name="Test Cases/LaunchingApp/LaunchApp" classname="Test Cases/LaunchingApp/LaunchApp" status="FAILED">
+         <failure type="FAILED" message="Unable to start app at: 'F:\QA_Automation\Builds\MMAPlus_Sup_v147_0304_live.apk' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Error finding if process exists. Original error: cmd.join is not a function
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-3AG49P4', ip: '192.168.3.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Error finding if process exists. Original error: cmd.join is not a function
+    at getResponseForW3CError (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:800:13)
+    at asyncHandler$ (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:352:37)
+    at tryCatch (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+    at &lt;anonymous>)"/>
+         <system-out><![CDATA[2018-06-26 14:45:19 - [TEST_CASE][FAILED] - Test Cases/LaunchingApp/LaunchApp: Test Cases/LaunchingApp/LaunchApp FAILED because (of) Unable to start app at: 'F:\QA_Automation\Builds\MMAPlus_Sup_v147_0304_live.apk' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Error finding if process exists. Original error: cmd.join is not a function
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-3AG49P4', ip: '192.168.3.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Error finding if process exists. Original error: cmd.join is not a function
+    at getResponseForW3CError (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:800:13)
+    at asyncHandler$ (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:352:37)
+    at tryCatch (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+    at <anonymous>)
+
+2018-06-26 14:45:20 - [TEST_STEP][FAILED] - startApplication: Unable to start app at: 'F:\QA_Automation\Builds\MMAPlus_Sup_v147_0304_live.apk' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Error finding if process exists. Original error: cmd.join is not a function
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-3AG49P4', ip: '192.168.3.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Error finding if process exists. Original error: cmd.join is not a function
+    at getResponseForW3CError (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:800:13)
+    at asyncHandler$ (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:352:37)
+    at tryCatch (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+    at <anonymous>)
+
+2018-06-26 14:45:31 - [MESSAGE][FAILED] - Unable to start app at: 'F:\QA_Automation\Builds\MMAPlus_Sup_v147_0304_live.apk' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Error finding if process exists. Original error: cmd.join is not a function
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-3AG49P4', ip: '192.168.3.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Error finding if process exists. Original error: cmd.join is not a function
+    at getResponseForW3CError (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:800:13)
+    at asyncHandler$ (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:352:37)
+    at tryCatch (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+    at <anonymous>)]]></system-out>
+         <system-err><![CDATA[2018-06-26 14:45:19 - [TEST_CASE][FAILED] - Test Cases/LaunchingApp/LaunchApp: Test Cases/LaunchingApp/LaunchApp FAILED because (of) Unable to start app at: 'F:\QA_Automation\Builds\MMAPlus_Sup_v147_0304_live.apk' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Error finding if process exists. Original error: cmd.join is not a function
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-3AG49P4', ip: '192.168.3.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Error finding if process exists. Original error: cmd.join is not a function
+    at getResponseForW3CError (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:800:13)
+    at asyncHandler$ (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:352:37)
+    at tryCatch (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+    at <anonymous>)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Attendance/MarkSupervisorAttendance" classname="Test Cases/Attendance/MarkSupervisorAttendance" status="FAILED">
+         <failure type="FAILED" message="No driver found"/>
+         <system-out><![CDATA[2018-06-26 14:45:31 - [TEST_CASE][FAILED] - Test Cases/Attendance/MarkSupervisorAttendance: Test Cases/Attendance/MarkSupervisorAttendance FAILED because (of) No driver found
+
+2018-06-26 14:45:31 - [TEST_STEP][PASSED] - verifyElementText: Checking timeout]]></system-out>
+         <system-err><![CDATA[2018-06-26 14:45:31 - [TEST_CASE][FAILED] - Test Cases/Attendance/MarkSupervisorAttendance: Test Cases/Attendance/MarkSupervisorAttendance FAILED because (of) No driver found]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Attendance/MarkMerchandisersAttendance" classname="Test Cases/Attendance/MarkMerchandisersAttendance" status="FAILED">
+         <failure type="FAILED" message="No driver found"/>
+         <system-out><![CDATA[2018-06-26 14:45:31 - [TEST_CASE][FAILED] - Test Cases/Attendance/MarkMerchandisersAttendance: Test Cases/Attendance/MarkMerchandisersAttendance FAILED because (of) No driver found
+
+2018-06-26 14:45:32 - [TEST_STEP][PASSED] - verifyElementText: Checking timeout]]></system-out>
+         <system-err><![CDATA[2018-06-26 14:45:31 - [TEST_CASE][FAILED] - Test Cases/Attendance/MarkMerchandisersAttendance: Test Cases/Attendance/MarkMerchandisersAttendance FAILED because (of) No driver found]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WW/VisitWW" classname="Test Cases/WW/VisitWW" status="FAILED">
+         <failure type="FAILED" message="No driver found"/>
+         <system-out><![CDATA[2018-06-26 14:45:32 - [TEST_CASE][FAILED] - Test Cases/WW/VisitWW: Test Cases/WW/VisitWW FAILED because (of) No driver found
+
+2018-06-26 14:45:32 - [TEST_STEP][PASSED] - verifyElementText: Checking timeout]]></system-out>
+         <system-err><![CDATA[2018-06-26 14:45:32 - [TEST_CASE][FAILED] - Test Cases/WW/VisitWW: Test Cases/WW/VisitWW FAILED because (of) No driver found]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WW/ShopWithChiller/ChooseShopForShopOpen" classname="Test Cases/WW/ShopWithChiller/ChooseShopForShopOpen" status="FAILED">
+         <failure type="FAILED" message="No driver found"/>
+         <system-out><![CDATA[2018-06-26 14:45:32 - [TEST_CASE][FAILED] - Test Cases/WW/ShopWithChiller/ChooseShopForShopOpen: Test Cases/WW/ShopWithChiller/ChooseShopForShopOpen FAILED because (of) No driver found
+
+2018-06-26 14:45:33 - [TEST_STEP][PASSED] - swipe: null]]></system-out>
+         <system-err><![CDATA[2018-06-26 14:45:32 - [TEST_CASE][FAILED] - Test Cases/WW/ShopWithChiller/ChooseShopForShopOpen: Test Cases/WW/ShopWithChiller/ChooseShopForShopOpen FAILED because (of) No driver found]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WW/ShopOpen/VisitShopOpen" classname="Test Cases/WW/ShopOpen/VisitShopOpen" status="FAILED">
+         <failure type="FAILED" message="No driver found"/>
+         <system-out><![CDATA[2018-06-26 14:45:33 - [TEST_CASE][FAILED] - Test Cases/WW/ShopOpen/VisitShopOpen: Test Cases/WW/ShopOpen/VisitShopOpen FAILED because (of) No driver found
+
+2018-06-26 14:45:33 - [TEST_STEP][PASSED] - tap: Timeout '0' is invalid. Using default page load timeout: '20'
+
+2018-06-26 14:45:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20']]></system-out>
+         <system-err><![CDATA[2018-06-26 14:45:33 - [TEST_CASE][FAILED] - Test Cases/WW/ShopOpen/VisitShopOpen: Test Cases/WW/ShopOpen/VisitShopOpen FAILED because (of) No driver found]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WW/ShopOpen/VisitShopProducts" classname="Test Cases/WW/ShopOpen/VisitShopProducts" status="FAILED">
+         <failure type="FAILED" message="No driver found"/>
+         <system-out><![CDATA[2018-06-26 14:45:33 - [TEST_CASE][FAILED] - Test Cases/WW/ShopOpen/VisitShopProducts: Test Cases/WW/ShopOpen/VisitShopProducts FAILED because (of) No driver found
+
+2018-06-26 14:45:34 - [TEST_STEP][PASSED] - verifyElementText: Checking timeout]]></system-out>
+         <system-err><![CDATA[2018-06-26 14:45:33 - [TEST_CASE][FAILED] - Test Cases/WW/ShopOpen/VisitShopProducts: Test Cases/WW/ShopOpen/VisitShopProducts FAILED because (of) No driver found]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-26 14:45:19 - [TEST_SUITE][FAILED] - Visit Shop With Chiller And Overwrite Scenario: Test Cases/LaunchingApp/LaunchApp FAILED because (of) Unable to start app at: 'F:\QA_Automation\Builds\MMAPlus_Sup_v147_0304_live.apk' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Error finding if process exists. Original error: cmd.join is not a function
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-3AG49P4', ip: '192.168.3.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Error finding if process exists. Original error: cmd.join is not a function
+    at getResponseForW3CError (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:800:13)
+    at asyncHandler$ (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:352:37)
+    at tryCatch (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+    at <anonymous>)]]></system-out>
+      <system-err><![CDATA[2018-06-26 14:45:19 - [TEST_SUITE][FAILED] - Visit Shop With Chiller And Overwrite Scenario: Test Cases/LaunchingApp/LaunchApp FAILED because (of) Unable to start app at: 'F:\QA_Automation\Builds\MMAPlus_Sup_v147_0304_live.apk' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Error finding if process exists. Original error: cmd.join is not a function
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-3AG49P4', ip: '192.168.3.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Error finding if process exists. Original error: cmd.join is not a function
+    at getResponseForW3CError (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:800:13)
+    at asyncHandler$ (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:352:37)
+    at tryCatch (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+    at <anonymous>)]]></system-err>
+   </testsuite>
+</testsuites>

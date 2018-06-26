@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Visit Shop With Chiller And Overwrite Scenario" time="263" tests="6" failures="0" errors="1">
+   <testsuite name="Visit Shop With Chiller And Overwrite Scenario" tests="6" failures="0" errors="1" time="263" timestamp="2018-06-26 12:55:37" hostname="itcity - DESKTOP-3AG49P4" id="Test Suites/Visit Shop With Chiller And Overwrite Scenario">
+      <properties>
+         <property name="deviceName" value="samsung SM-J110H (Android 4.4.4)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\Git Projects\\MMAPlus_Supervisor\\MMAPlus_Supervisor\\Reports\\Visit Shop With Chiller And Overwrite Scenario\\20180626_125535"/>
+         <property name="logFiles" value="F:\\Git Projects\\MMAPlus_Supervisor\\MMAPlus_Supervisor\\Reports\\Visit Shop With Chiller And Overwrite Scenario\\20180626_125535\\appium.log, F:\\Git Projects\\MMAPlus_Supervisor\\MMAPlus_Supervisor\\Reports\\Visit Shop With Chiller And Overwrite Scenario\\20180626_125535\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="itcity - DESKTOP-3AG49P4"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.0"/>
+         <property name="deviceModel" value="SM-J110H"/>
+         <property name="hostAddress" value="192.168.3.191"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="11015a1136d0b24a"/>
+         <property name="deviceName" value="samsung SM-J110H (Android 4.4.4)"/>
+         <property name="deviceOSVersion" value="4.4.4"/>
+      </properties>
+      <testcase name="Test Cases/LaunchingApp/LaunchApp" classname="Test Cases/LaunchingApp/LaunchApp" status="PASSED">
+         <system-out><![CDATA[2018-06-26 12:55:38 - [TEST_CASE][PASSED] - Test Cases/LaunchingApp/LaunchApp: Test Cases/LaunchingApp/LaunchApp
+
+2018-06-26 12:55:39 - [TEST_STEP][PASSED] - startApplication: Started app at: 'F:\QA_Automation\Builds\MMAPlus_Sup_v147_0304_live.apk'
+
+2018-06-26 12:56:00 - [MESSAGE][PASSED] - Started app at: 'F:\QA_Automation\Builds\MMAPlus_Sup_v147_0304_live.apk'
+
+2018-06-26 12:56:00 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-06-26 12:56:05 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Attendance/MarkSupervisorAttendance" classname="Test Cases/Attendance/MarkSupervisorAttendance" status="PASSED">
+         <system-out><![CDATA[2018-06-26 12:56:05 - [TEST_CASE][PASSED] - Test Cases/Attendance/MarkSupervisorAttendance: Test Cases/Attendance/MarkSupervisorAttendance
+
+2018-06-26 12:56:05 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/DashboardScreenElements/Validate_DashboardScreen' are matched.
+
+2018-06-26 12:56:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/DashboardScreenElements/Validate_DashboardScreen' are matched.
+
+2018-06-26 12:56:06 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/DashboardScreenElements/Attendance'
+
+2018-06-26 12:56:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2018-06-26 12:56:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/DashboardScreenElements/Attendance'
+
+2018-06-26 12:56:07 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/SupervisorAttendanceScreenElements/Validate_AttendanceScreen' are matched.
+
+2018-06-26 12:56:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SupervisorAttendanceScreenElements/Validate_AttendanceScreen' are matched.
+
+2018-06-26 12:56:08 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SupervisorAttendanceScreenElements/CheckIn_RadioButton'
+
+2018-06-26 12:56:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2018-06-26 12:56:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SupervisorAttendanceScreenElements/CheckIn_RadioButton'
+
+2018-06-26 12:56:09 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SupervisorAttendanceScreenElements/SubmitButton'
+
+2018-06-26 12:56:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2018-06-26 12:56:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SupervisorAttendanceScreenElements/SubmitButton'
+
+2018-06-26 12:56:12 - [TEST_STEP][PASSED] - customkeywords.CustomKeywordsCollection.checkSupervisorSelfie: customkeywords.CustomKeywordsCollection.checkSupervisorSelfie is PASSED
+
+2018-06-26 12:56:28 - [MESSAGE][PASSED] - Element 'Object Repository/CommonScreenElements/Validate_MapScreen' is present
+
+2018-06-26 12:56:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2018-06-26 12:56:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonScreenElements/Location_CheckIn'
+
+2018-06-26 12:56:28 - [MESSAGE][PASSED] - customkeywords.CustomKeywordsCollection.checkSupervisorSelfie is PASSED
+
+2018-06-26 12:56:28 - [TEST_STEP][PASSED] - verifyElementExist: Element 'Object Repository/CommonScreenElements/Validate_InfoPopUP' is exist
+
+2018-06-26 12:56:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2018-06-26 12:56:30 - [MESSAGE][PASSED] - Element 'Object Repository/CommonScreenElements/Validate_InfoPopUP' is exist
+
+2018-06-26 12:56:30 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/CommonScreenElements/InfoPopUp_NoButton'
+
+2018-06-26 12:56:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2018-06-26 12:56:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonScreenElements/InfoPopUp_NoButton']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Attendance/MarkMerchandisersAttendance" classname="Test Cases/Attendance/MarkMerchandisersAttendance" status="PASSED">
+         <system-out><![CDATA[2018-06-26 12:56:30 - [TEST_CASE][PASSED] - Test Cases/Attendance/MarkMerchandisersAttendance: Test Cases/Attendance/MarkMerchandisersAttendance
+
+2018-06-26 12:56:31 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/MerchandiserAttendanceScreenElements/Validate_MerchandisersAttendanceScreen' are matched.
+
+2018-06-26 12:56:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MerchandiserAttendanceScreenElements/Validate_MerchandisersAttendanceScreen' are matched.
+
+2018-06-26 12:56:32 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/MerchandiserAttendanceScreenElements/StartYourDay'
+
+2018-06-26 12:56:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2018-06-26 12:56:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MerchandiserAttendanceScreenElements/StartYourDay'
+
+2018-06-26 12:56:32 - [TEST_STEP][PASSED] - customkeywords.CustomKeywordsCollection.markMerchandisersAttendance: customkeywords.CustomKeywordsCollection.markMerchandisersAttendance is PASSED
+
+2018-06-26 12:56:33 - [MESSAGE][PASSED] - customkeywords.CustomKeywordsCollection.markMerchandisersAttendance is PASSED
+
+2018-06-26 12:56:33 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/MerchandiserAttendanceScreenElements/Validate_ScoringScreen' is present
+
+2018-06-26 12:57:33 - [MESSAGE][PASSED] - Element 'Object Repository/MerchandiserAttendanceScreenElements/Validate_ScoringScreen' is present
+
+2018-06-26 12:57:33 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/MerchandiserAttendanceScreenElements/Validate_ScoringScreen' are matched.
+
+2018-06-26 12:57:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MerchandiserAttendanceScreenElements/Validate_ScoringScreen' are matched.
+
+2018-06-26 12:57:33 - [TEST_STEP][PASSED] - customkeywords.CustomKeywordsCollection.selectMerchandiser: customkeywords.CustomKeywordsCollection.selectMerchandiser is PASSED
+
+2018-06-26 12:57:45 - [MESSAGE][PASSED] - Element 'Object Repository/ModuleSelectionScreenElements/Validate_ModuleSelectionScreen' is present
+
+2018-06-26 12:57:45 - [MESSAGE][PASSED] - customkeywords.CustomKeywordsCollection.selectMerchandiser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WW/VisitWW" classname="Test Cases/WW/VisitWW" status="PASSED">
+         <system-out><![CDATA[2018-06-26 12:57:45 - [TEST_CASE][PASSED] - Test Cases/WW/VisitWW: Test Cases/WW/VisitWW
+
+2018-06-26 12:57:45 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ModuleSelectionScreenElements/Validate_ModuleSelectionScreen' are matched.
+
+2018-06-26 12:57:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ModuleSelectionScreenElements/Validate_ModuleSelectionScreen' are matched.
+
+2018-06-26 12:57:46 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/ModuleSelectionScreenElements/WW/WW'
+
+2018-06-26 12:57:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2018-06-26 12:57:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/ModuleSelectionScreenElements/WW/WW'
+
+2018-06-26 12:57:46 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/ModuleSelectionScreenElements/WW/Validate_RoutListScreen' is present
+
+2018-06-26 12:57:48 - [MESSAGE][PASSED] - Element 'Object Repository/ModuleSelectionScreenElements/WW/Validate_RoutListScreen' is present
+
+2018-06-26 12:57:48 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ModuleSelectionScreenElements/WW/Validate_RoutListScreen' are matched.
+
+2018-06-26 12:57:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ModuleSelectionScreenElements/WW/Validate_RoutListScreen' are matched.
+
+2018-06-26 12:57:48 - [TEST_STEP][NOT_RUN] - customkeywords.CustomKeywordsCollection.selectRoute: NOT_RUN: customkeywords.CustomKeywordsCollection.selectRoute
+
+2018-06-26 12:57:48 - [MESSAGE][NOT_RUN] - NOT_RUN: customkeywords.CustomKeywordsCollection.selectRoute]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WW/ShopWithChiller/ChooseShopForShopOpen" classname="Test Cases/WW/ShopWithChiller/ChooseShopForShopOpen" status="PASSED">
+         <system-out><![CDATA[2018-06-26 12:57:48 - [TEST_CASE][PASSED] - Test Cases/WW/ShopWithChiller/ChooseShopForShopOpen: Test Cases/WW/ShopWithChiller/ChooseShopForShopOpen
+
+2018-06-26 12:57:49 - [TEST_STEP][PASSED] - swipe: Swiped from 0,200 to 0,600
+
+2018-06-26 12:57:49 - [MESSAGE][PASSED] - Swiped from 0,200 to 0,600
+
+2018-06-26 12:57:49 - [TEST_STEP][PASSED] - swipe: Swiped from 0,200 to 0,600
+
+2018-06-26 12:57:50 - [MESSAGE][PASSED] - Swiped from 0,200 to 0,600
+
+2018-06-26 12:57:50 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ModuleSelectionScreenElements/WW/Validate_ShopListScreen' are matched.
+
+2018-06-26 12:57:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ModuleSelectionScreenElements/WW/Validate_ShopListScreen' are matched.
+
+2018-06-26 12:57:55 - [TEST_STEP][PASSED] - customkeywords.CustomKeywordsCollection.selectShopWithChiller: customkeywords.CustomKeywordsCollection.selectShopWithChiller is PASSED
+
+2018-06-26 12:57:59 - [MESSAGE][PASSED] - customkeywords.CustomKeywordsCollection.selectShopWithChiller is PASSED
+
+2018-06-26 12:57:59 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ModuleSelectionScreenElements/WW/Validate_ShopOptionsScreen' are matched.
+
+2018-06-26 12:58:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ModuleSelectionScreenElements/WW/Validate_ShopOptionsScreen' are matched.
+
+2018-06-26 12:58:01 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/ModuleSelectionScreenElements/WW/StartWorking'
+
+2018-06-26 12:58:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2018-06-26 12:58:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/ModuleSelectionScreenElements/WW/StartWorking'
+
+2018-06-26 12:58:01 - [TEST_STEP][NOT_RUN] - verifyElementExist: NOT_RUN: verifyElementExist
+
+2018-06-26 12:58:01 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementExist
+
+2018-06-26 12:58:01 - [TEST_STEP][NOT_RUN] - tap: NOT_RUN: tap
+
+2018-06-26 12:58:01 - [MESSAGE][NOT_RUN] - NOT_RUN: tap
+
+2018-06-26 12:58:01 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/CommonScreenElements/Validate_MapScreen' is present
+
+2018-06-26 12:58:17 - [MESSAGE][PASSED] - Element 'Object Repository/CommonScreenElements/Validate_MapScreen' is present
+
+2018-06-26 12:58:17 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/CommonScreenElements/Location_CheckIn'
+
+2018-06-26 12:58:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2018-06-26 12:58:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonScreenElements/Location_CheckIn'
+
+2018-06-26 12:58:18 - [TEST_STEP][PASSED] - verifyElementExist: Element 'Object Repository/CommonScreenElements/Validate_InfoPopUP' is exist
+
+2018-06-26 12:58:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2018-06-26 12:58:19 - [MESSAGE][PASSED] - Element 'Object Repository/CommonScreenElements/Validate_InfoPopUP' is exist
+
+2018-06-26 12:58:19 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/CommonScreenElements/InfoPopUp_NoButton'
+
+2018-06-26 12:58:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2018-06-26 12:58:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonScreenElements/InfoPopUp_NoButton'
+
+2018-06-26 12:58:20 - [TEST_STEP][PASSED] - verifyElementExist: Element 'Object Repository/ModuleSelectionScreenElements/WW/ShopActions_List' is exist
+
+2018-06-26 12:58:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2018-06-26 12:58:21 - [MESSAGE][PASSED] - Element 'Object Repository/ModuleSelectionScreenElements/WW/ShopActions_List' is exist]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WW/ShopOpen/VisitShopOpen" classname="Test Cases/WW/ShopOpen/VisitShopOpen" status="PASSED">
+         <system-out><![CDATA[2018-06-26 12:58:21 - [TEST_CASE][PASSED] - Test Cases/WW/ShopOpen/VisitShopOpen: Test Cases/WW/ShopOpen/VisitShopOpen
+
+2018-06-26 12:58:21 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/ModuleSelectionScreenElements/WW/ShopOpen/ShopOpen'
+
+2018-06-26 12:58:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2018-06-26 12:58:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/ModuleSelectionScreenElements/WW/ShopOpen/ShopOpen'
+
+2018-06-26 12:58:23 - [TEST_STEP][PASSED] - verifyElementExist: Element 'Object Repository/CommonScreenElements/Validate_CameraScreen' is exist
+
+2018-06-26 12:58:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2018-06-26 12:58:24 - [MESSAGE][PASSED] - Element 'Object Repository/CommonScreenElements/Validate_CameraScreen' is exist
+
+2018-06-26 12:58:24 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/CommonScreenElements/TakePictureButton'
+
+2018-06-26 12:58:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2018-06-26 12:58:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonScreenElements/TakePictureButton'
+
+2018-06-26 12:58:25 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-06-26 12:58:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-06-26 12:58:30 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/CommonScreenElements/DoneButton'
+
+2018-06-26 12:58:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2018-06-26 12:58:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonScreenElements/DoneButton']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WW/ShopOpen/VisitShopProducts" classname="Test Cases/WW/ShopOpen/VisitShopProducts" status="ERROR">
+         <error type="ERROR" message="Test Cases/WW/ShopOpen/VisitShopProducts FAILED because (of) org.openqa.selenium.WebDriverException: Returned value cannot be converted to WebElement: {stacktrace=NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidDriver.callee$0$0$ (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:69:13)
+    at tryCatch (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+    at &lt;anonymous>, error=no such element, message=An element could not be located on the page using the given search parameters.}
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-3AG49P4', ip: '192.168.3.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver"/>
+         <system-out><![CDATA[2018-06-26 12:58:31 - [TEST_CASE][ERROR] - Test Cases/WW/ShopOpen/VisitShopProducts: Test Cases/WW/ShopOpen/VisitShopProducts FAILED because (of) org.openqa.selenium.WebDriverException: Returned value cannot be converted to WebElement: {stacktrace=NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidDriver.callee$0$0$ (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:69:13)
+    at tryCatch (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+    at <anonymous>, error=no such element, message=An element could not be located on the page using the given search parameters.}
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-3AG49P4', ip: '192.168.3.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver
+
+2018-06-26 12:58:31 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ModuleSelectionScreenElements/WW/ShopOpen/Validate_ShopModulesScreen' are matched.
+
+2018-06-26 12:58:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ModuleSelectionScreenElements/WW/ShopOpen/Validate_ShopModulesScreen' are matched.
+
+2018-06-26 12:58:33 - [TEST_STEP][ERROR] - customkeywords.CustomKeywordsCollection.visitShopProducts: Returned value cannot be converted to WebElement: {stacktrace=NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidDriver.callee$0$0$ (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:69:13)
+    at tryCatch (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+    at <anonymous>, error=no such element, message=An element could not be located on the page using the given search parameters.}
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-3AG49P4', ip: '192.168.3.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver
+
+2018-06-26 12:58:43 - [MESSAGE][PASSED] - Swiped from 0,293 to 0,200
+
+2018-06-26 12:58:47 - [MESSAGE][PASSED] - Swiped from 0,293 to 0,200
+
+2018-06-26 12:58:51 - [MESSAGE][PASSED] - Swiped from 0,293 to 0,200
+
+2018-06-26 12:58:55 - [MESSAGE][PASSED] - Swiped from 0,293 to 0,200
+
+2018-06-26 12:58:59 - [MESSAGE][PASSED] - Swiped from 0,293 to 0,200
+
+2018-06-26 12:59:03 - [MESSAGE][PASSED] - Swiped from 0,293 to 0,200
+
+2018-06-26 12:59:07 - [MESSAGE][PASSED] - Swiped from 0,293 to 0,200
+
+2018-06-26 12:59:11 - [MESSAGE][PASSED] - Swiped from 0,293 to 0,200
+
+2018-06-26 12:59:15 - [MESSAGE][PASSED] - Swiped from 0,293 to 0,200
+
+2018-06-26 12:59:17 - [TEST_CASE][ERROR] - Test Cases/WW/ShopOpen/AdditionalPicture/VisitAdditionalPicture: Test Cases/WW/ShopOpen/AdditionalPicture/VisitAdditionalPicture FAILED because (of) org.openqa.selenium.WebDriverException: Returned value cannot be converted to WebElement: {stacktrace=NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidDriver.callee$0$0$ (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:69:13)
+    at tryCatch (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+    at <anonymous>, error=no such element, message=An element could not be located on the page using the given search parameters.}
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-3AG49P4', ip: '192.168.3.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver
+
+2018-06-26 12:59:18 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ModuleSelectionScreenElements/WW/ShopOpen/AdditionalPicture/Validate_AdditionalPictureScreen' are matched.
+
+2018-06-26 12:59:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ModuleSelectionScreenElements/WW/ShopOpen/AdditionalPicture/Validate_AdditionalPictureScreen' are matched.
+
+2018-06-26 12:59:19 - [TEST_STEP][ERROR] - customkeywords.CustomKeywordsCollection.comapareImages: Returned value cannot be converted to WebElement: {stacktrace=NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidDriver.callee$0$0$ (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:69:13)
+    at tryCatch (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+    at <anonymous>, error=no such element, message=An element could not be located on the page using the given search parameters.}
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-3AG49P4', ip: '192.168.3.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver
+
+2018-06-26 12:59:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2018-06-26 12:59:27 - [MESSAGE][PASSED] - Element 'Object Repository/CommonScreenElements/Validate_CameraScreen' is exist
+
+2018-06-26 12:59:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2018-06-26 12:59:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonScreenElements/TakePictureButton'
+
+2018-06-26 12:59:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2018-06-26 12:59:31 - [MESSAGE][PASSED] - Element 'Object Repository/CommonScreenElements/DoneButton' is present
+
+2018-06-26 12:59:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2018-06-26 12:59:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonScreenElements/DoneButton'
+
+2018-06-26 12:59:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2018-06-26 12:59:35 - [MESSAGE][PASSED] - Element 'Object Repository/CommonScreenElements/Validate_CameraScreen' is exist
+
+2018-06-26 12:59:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2018-06-26 12:59:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonScreenElements/TakePictureButton'
+
+2018-06-26 12:59:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2018-06-26 12:59:39 - [MESSAGE][PASSED] - Element 'Object Repository/CommonScreenElements/DoneButton' is present
+
+2018-06-26 12:59:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2018-06-26 12:59:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonScreenElements/DoneButton'
+
+2018-06-26 12:59:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2018-06-26 12:59:43 - [MESSAGE][PASSED] - Element 'Object Repository/CommonScreenElements/Validate_CameraScreen' is exist
+
+2018-06-26 12:59:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2018-06-26 12:59:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonScreenElements/TakePictureButton'
+
+2018-06-26 12:59:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2018-06-26 12:59:46 - [MESSAGE][PASSED] - Element 'Object Repository/CommonScreenElements/DoneButton' is present
+
+2018-06-26 12:59:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2018-06-26 12:59:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonScreenElements/DoneButton'
+
+2018-06-26 12:59:49 - [MESSAGE][PASSED] - Swiped from 0,370 to 0,200
+
+2018-06-26 12:59:52 - [MESSAGE][PASSED] - Swiped from 0,540 to 0,200
+
+2018-06-26 12:59:55 - [MESSAGE][PASSED] - Swiped from 0,540 to 0,200
+
+2018-06-26 12:59:58 - [MESSAGE][PASSED] - Swiped from 0,540 to 0,200
+
+2018-06-26 13:00:01 - [MESSAGE][PASSED] - Swiped from 0,540 to 0,200
+
+2018-06-26 13:00:01 - [MESSAGE][ERROR] - Returned value cannot be converted to WebElement: {stacktrace=NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidDriver.callee$0$0$ (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:69:13)
+    at tryCatch (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+    at <anonymous>, error=no such element, message=An element could not be located on the page using the given search parameters.}
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-3AG49P4', ip: '192.168.3.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver
+
+2018-06-26 13:00:01 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/WW/ShopOpen/AdditionalPicture/VisitAdditionalPicture' (Root cause: Call Test Case 'Test Cases/WW/ShopOpen/AdditionalPicture/VisitAdditionalPicture' failed because of error(s))
+
+2018-06-26 13:00:01 - [MESSAGE][ERROR] - Returned value cannot be converted to WebElement: {stacktrace=NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidDriver.callee$0$0$ (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:69:13)
+    at tryCatch (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+    at <anonymous>, error=no such element, message=An element could not be located on the page using the given search parameters.}
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-3AG49P4', ip: '192.168.3.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver]]></system-out>
+         <system-err><![CDATA[2018-06-26 12:58:31 - [TEST_CASE][ERROR] - Test Cases/WW/ShopOpen/VisitShopProducts: Test Cases/WW/ShopOpen/VisitShopProducts FAILED because (of) org.openqa.selenium.WebDriverException: Returned value cannot be converted to WebElement: {stacktrace=NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidDriver.callee$0$0$ (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:69:13)
+    at tryCatch (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+    at <anonymous>, error=no such element, message=An element could not be located on the page using the given search parameters.}
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-3AG49P4', ip: '192.168.3.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-26 12:55:37 - [TEST_SUITE][ERROR] - Visit Shop With Chiller And Overwrite Scenario: Test Cases/WW/ShopOpen/VisitShopProducts FAILED because (of) org.openqa.selenium.WebDriverException: Returned value cannot be converted to WebElement: {stacktrace=NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidDriver.callee$0$0$ (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:69:13)
+    at tryCatch (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+    at <anonymous>, error=no such element, message=An element could not be located on the page using the given search parameters.}
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-3AG49P4', ip: '192.168.3.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver]]></system-out>
+      <system-err><![CDATA[2018-06-26 12:55:37 - [TEST_SUITE][ERROR] - Visit Shop With Chiller And Overwrite Scenario: Test Cases/WW/ShopOpen/VisitShopProducts FAILED because (of) org.openqa.selenium.WebDriverException: Returned value cannot be converted to WebElement: {stacktrace=NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidDriver.callee$0$0$ (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:69:13)
+    at tryCatch (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Users\itcity\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+    at <anonymous>, error=no such element, message=An element could not be located on the page using the given search parameters.}
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-3AG49P4', ip: '192.168.3.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Visit Shop With Chiller And Overwrite Scenario" time="152" tests="1" failures="3" errors="3">
+   <testsuite name="Visit Shop With Chiller And Overwrite Scenario" tests="1" failures="3" errors="3" time="152" timestamp="2018-06-22 16:49:27" hostname="itcity - DESKTOP-3AG49P4" id="Test Suites/Visit Shop With Chiller And Overwrite Scenario">
+      <properties>
+         <property name="deviceName" value="samsung SM-J110H (Android 4.4.4)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\Git Projects\\MMAPlus_Supervisor\\MMAPlus_Supervisor\\Reports\\Visit Shop With Chiller And Overwrite Scenario\\20180622_164924"/>
+         <property name="logFiles" value="F:\\Git Projects\\MMAPlus_Supervisor\\MMAPlus_Supervisor\\Reports\\Visit Shop With Chiller And Overwrite Scenario\\20180622_164924\\appium.log, F:\\Git Projects\\MMAPlus_Supervisor\\MMAPlus_Supervisor\\Reports\\Visit Shop With Chiller And Overwrite Scenario\\20180622_164924\\execution0.log"/>
+         <property name="attachments" value="F:\\Git Projects\\MMAPlus_Supervisor\\MMAPlus_Supervisor\\Reports\\Visit Shop With Chiller And Overwrite Scenario\\20180622_164924\\1529668246752.png, F:\\Git Projects\\MMAPlus_Supervisor\\MMAPlus_Supervisor\\Reports\\Visit Shop With Chiller And Overwrite Scenario\\20180622_164924\\1529668248240.png, F:\\Git Projects\\MMAPlus_Supervisor\\MMAPlus_Supervisor\\Reports\\Visit Shop With Chiller And Overwrite Scenario\\20180622_164924\\1529668271636.png, F:\\Git Projects\\MMAPlus_Supervisor\\MMAPlus_Supervisor\\Reports\\Visit Shop With Chiller And Overwrite Scenario\\20180622_164924\\1529668272844.png, F:\\Git Projects\\MMAPlus_Supervisor\\MMAPlus_Supervisor\\Reports\\Visit Shop With Chiller And Overwrite Scenario\\20180622_164924\\1529668306253.png, F:\\Git Projects\\MMAPlus_Supervisor\\MMAPlus_Supervisor\\Reports\\Visit Shop With Chiller And Overwrite Scenario\\20180622_164924\\1529668307905.png"/>
+         <property name="hostName" value="itcity - DESKTOP-3AG49P4"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.0"/>
+         <property name="deviceModel" value="SM-J110H"/>
+         <property name="hostAddress" value="192.168.3.191"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="11015a1136d0b24a"/>
+         <property name="deviceName" value="samsung SM-J110H (Android 4.4.4)"/>
+         <property name="deviceOSVersion" value="4.4.4"/>
+      </properties>
+      <testcase name="Test Cases/LaunchingApp/LaunchApp" classname="Test Cases/LaunchingApp/LaunchApp" status="PASSED">
+         <system-out><![CDATA[2018-06-22 16:49:28 - [TEST_CASE][PASSED] - Test Cases/LaunchingApp/LaunchApp: Test Cases/LaunchingApp/LaunchApp
+
+2018-06-22 16:49:29 - [TEST_STEP][PASSED] - startApplication: Started app at: 'F:\QA_Automation\Builds\MMAPlus_Sup_v147_0304_live.apk'
+
+2018-06-22 16:49:55 - [MESSAGE][PASSED] - Started app at: 'F:\QA_Automation\Builds\MMAPlus_Sup_v147_0304_live.apk'
+
+2018-06-22 16:49:55 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-06-22 16:50:00 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Attendance/MarkSupervisorAttendance" classname="Test Cases/Attendance/MarkSupervisorAttendance" status="ERROR">
+         <error type="ERROR" message="Test Cases/Attendance/MarkSupervisorAttendance FAILED because (of) java.lang.NoClassDefFoundError: Could not initialize class customkeywords.CustomKeywordsCollection"/>
+         <system-out><![CDATA[2018-06-22 16:50:00 - [TEST_CASE][ERROR] - Test Cases/Attendance/MarkSupervisorAttendance: Test Cases/Attendance/MarkSupervisorAttendance FAILED because (of) java.lang.NoClassDefFoundError: Could not initialize class customkeywords.CustomKeywordsCollection
+
+2018-06-22 16:50:00 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/DashboardScreenElements/Validate_DashboardScreen' are matched.
+
+2018-06-22 16:50:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/DashboardScreenElements/Validate_DashboardScreen' are matched.
+
+2018-06-22 16:50:02 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/DashboardScreenElements/Attendance'
+
+2018-06-22 16:50:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2018-06-22 16:50:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/DashboardScreenElements/Attendance'
+
+2018-06-22 16:50:03 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/SupervisorAttendanceScreenElements/Validate_AttendanceScreen' are matched.
+
+2018-06-22 16:50:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SupervisorAttendanceScreenElements/Validate_AttendanceScreen' are matched.
+
+2018-06-22 16:50:04 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SupervisorAttendanceScreenElements/CheckIn_RadioButton'
+
+2018-06-22 16:50:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2018-06-22 16:50:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SupervisorAttendanceScreenElements/CheckIn_RadioButton'
+
+2018-06-22 16:50:05 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SupervisorAttendanceScreenElements/SubmitButton'
+
+2018-06-22 16:50:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2018-06-22 16:50:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SupervisorAttendanceScreenElements/SubmitButton'
+
+2018-06-22 16:50:06 - [TEST_STEP][ERROR] - customkeywords.CustomKeywordsCollection.checkSupervisorSelfie: Could not initialize class customkeywords.CustomKeywordsCollection
+
+2018-06-22 16:50:06 - [MESSAGE][ERROR] - Could not initialize class customkeywords.CustomKeywordsCollection]]></system-out>
+         <system-err><![CDATA[2018-06-22 16:50:00 - [TEST_CASE][ERROR] - Test Cases/Attendance/MarkSupervisorAttendance: Test Cases/Attendance/MarkSupervisorAttendance FAILED because (of) java.lang.NoClassDefFoundError: Could not initialize class customkeywords.CustomKeywordsCollection]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Attendance/MarkMerchandisersAttendance" classname="Test Cases/Attendance/MarkMerchandisersAttendance" status="ERROR">
+         <error type="ERROR" message="Test Cases/Attendance/MarkMerchandisersAttendance FAILED because (of) java.lang.NoClassDefFoundError: Could not initialize class customkeywords.CustomKeywordsCollection"/>
+         <system-out><![CDATA[2018-06-22 16:50:06 - [TEST_CASE][ERROR] - Test Cases/Attendance/MarkMerchandisersAttendance: Test Cases/Attendance/MarkMerchandisersAttendance FAILED because (of) java.lang.NoClassDefFoundError: Could not initialize class customkeywords.CustomKeywordsCollection
+
+2018-06-22 16:50:07 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/MerchandiserAttendanceScreenElements/Validate_MerchandisersAttendanceScreen' are matched.
+
+2018-06-22 16:50:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MerchandiserAttendanceScreenElements/Validate_MerchandisersAttendanceScreen' are matched.
+
+2018-06-22 16:50:25 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/MerchandiserAttendanceScreenElements/StartYourDay'
+
+2018-06-22 16:50:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2018-06-22 16:50:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MerchandiserAttendanceScreenElements/StartYourDay'
+
+2018-06-22 16:50:26 - [TEST_STEP][ERROR] - customkeywords.CustomKeywordsCollection.markMerchandisersAttendance: Could not initialize class customkeywords.CustomKeywordsCollection
+
+2018-06-22 16:50:26 - [MESSAGE][ERROR] - Could not initialize class customkeywords.CustomKeywordsCollection]]></system-out>
+         <system-err><![CDATA[2018-06-22 16:50:06 - [TEST_CASE][ERROR] - Test Cases/Attendance/MarkMerchandisersAttendance: Test Cases/Attendance/MarkMerchandisersAttendance FAILED because (of) java.lang.NoClassDefFoundError: Could not initialize class customkeywords.CustomKeywordsCollection]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WW/VisitWW" classname="Test Cases/WW/VisitWW" status="FAILED">
+         <failure type="FAILED" message="Verify element text of test object 'Object Repository/ModuleSelectionScreenElements/Validate_ModuleSelectionScreen' FAILED. (Root cause: Element 'Object Repository/ModuleSelectionScreenElements/Validate_ModuleSelectionScreen' not found)"/>
+         <system-out><![CDATA[2018-06-22 16:50:26 - [TEST_CASE][FAILED] - Test Cases/WW/VisitWW: Test Cases/WW/VisitWW FAILED because (of) Verify element text of test object 'Object Repository/ModuleSelectionScreenElements/Validate_ModuleSelectionScreen' FAILED. (Root cause: Element 'Object Repository/ModuleSelectionScreenElements/Validate_ModuleSelectionScreen' not found)
+
+2018-06-22 16:50:26 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/ModuleSelectionScreenElements/Validate_ModuleSelectionScreen' FAILED. (Root cause: Element 'Object Repository/ModuleSelectionScreenElements/Validate_ModuleSelectionScreen' not found)
+
+2018-06-22 16:50:48 - [MESSAGE][FAILED] - Element 'Object Repository/ModuleSelectionScreenElements/Validate_ModuleSelectionScreen' not found
+[[ATTACHMENT|F:\\Git Projects\\MMAPlus_Supervisor\\MMAPlus_Supervisor\\Reports\\Visit Shop With Chiller And Overwrite Scenario\\20180622_164924\\1529668246752.png]]
+
+2018-06-22 16:50:49 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/ModuleSelectionScreenElements/Validate_ModuleSelectionScreen' FAILED. (Root cause: Element 'Object Repository/ModuleSelectionScreenElements/Validate_ModuleSelectionScreen' not found)
+[[ATTACHMENT|F:\\Git Projects\\MMAPlus_Supervisor\\MMAPlus_Supervisor\\Reports\\Visit Shop With Chiller And Overwrite Scenario\\20180622_164924\\1529668248240.png]]]]></system-out>
+         <system-err><![CDATA[2018-06-22 16:50:26 - [TEST_CASE][FAILED] - Test Cases/WW/VisitWW: Test Cases/WW/VisitWW FAILED because (of) Verify element text of test object 'Object Repository/ModuleSelectionScreenElements/Validate_ModuleSelectionScreen' FAILED. (Root cause: Element 'Object Repository/ModuleSelectionScreenElements/Validate_ModuleSelectionScreen' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WW/ShopWithChiller/ChooseShopForShopOpen" classname="Test Cases/WW/ShopWithChiller/ChooseShopForShopOpen" status="FAILED">
+         <failure type="FAILED" message="Verify element text of test object 'Object Repository/ModuleSelectionScreenElements/WW/Validate_ShopListScreen' FAILED. (Root cause: Element 'Object Repository/ModuleSelectionScreenElements/WW/Validate_ShopListScreen' not found)"/>
+         <system-out><![CDATA[2018-06-22 16:50:49 - [TEST_CASE][FAILED] - Test Cases/WW/ShopWithChiller/ChooseShopForShopOpen: Test Cases/WW/ShopWithChiller/ChooseShopForShopOpen FAILED because (of) Verify element text of test object 'Object Repository/ModuleSelectionScreenElements/WW/Validate_ShopListScreen' FAILED. (Root cause: Element 'Object Repository/ModuleSelectionScreenElements/WW/Validate_ShopListScreen' not found)
+
+2018-06-22 16:50:49 - [TEST_STEP][PASSED] - swipe: Swiped from 0,200 to 0,600
+
+2018-06-22 16:50:50 - [MESSAGE][PASSED] - Swiped from 0,200 to 0,600
+
+2018-06-22 16:50:50 - [TEST_STEP][PASSED] - swipe: Swiped from 0,200 to 0,600
+
+2018-06-22 16:50:51 - [MESSAGE][PASSED] - Swiped from 0,200 to 0,600
+
+2018-06-22 16:50:51 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/ModuleSelectionScreenElements/WW/Validate_ShopListScreen' FAILED. (Root cause: Element 'Object Repository/ModuleSelectionScreenElements/WW/Validate_ShopListScreen' not found)
+
+2018-06-22 16:51:12 - [MESSAGE][FAILED] - Element 'Object Repository/ModuleSelectionScreenElements/WW/Validate_ShopListScreen' not found
+[[ATTACHMENT|F:\\Git Projects\\MMAPlus_Supervisor\\MMAPlus_Supervisor\\Reports\\Visit Shop With Chiller And Overwrite Scenario\\20180622_164924\\1529668271636.png]]
+
+2018-06-22 16:51:14 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/ModuleSelectionScreenElements/WW/Validate_ShopListScreen' FAILED. (Root cause: Element 'Object Repository/ModuleSelectionScreenElements/WW/Validate_ShopListScreen' not found)
+[[ATTACHMENT|F:\\Git Projects\\MMAPlus_Supervisor\\MMAPlus_Supervisor\\Reports\\Visit Shop With Chiller And Overwrite Scenario\\20180622_164924\\1529668272844.png]]]]></system-out>
+         <system-err><![CDATA[2018-06-22 16:50:49 - [TEST_CASE][FAILED] - Test Cases/WW/ShopWithChiller/ChooseShopForShopOpen: Test Cases/WW/ShopWithChiller/ChooseShopForShopOpen FAILED because (of) Verify element text of test object 'Object Repository/ModuleSelectionScreenElements/WW/Validate_ShopListScreen' FAILED. (Root cause: Element 'Object Repository/ModuleSelectionScreenElements/WW/Validate_ShopListScreen' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WW/ShopOpen/VisitShopOpen" classname="Test Cases/WW/ShopOpen/VisitShopOpen" status="FAILED">
+         <failure type="FAILED" message="Failed to check for element 'Object Repository/CommonScreenElements/Validate_CameraScreen' exist (Root cause: Element 'Object Repository/CommonScreenElements/Validate_CameraScreen' not found)"/>
+         <system-out><![CDATA[2018-06-22 16:51:14 - [TEST_CASE][FAILED] - Test Cases/WW/ShopOpen/VisitShopOpen: Test Cases/WW/ShopOpen/VisitShopOpen FAILED because (of) Failed to check for element 'Object Repository/CommonScreenElements/Validate_CameraScreen' exist (Root cause: Element 'Object Repository/CommonScreenElements/Validate_CameraScreen' not found)
+
+2018-06-22 16:51:14 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/ModuleSelectionScreenElements/WW/ShopOpen/ShopOpen'
+
+2018-06-22 16:51:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2018-06-22 16:51:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/ModuleSelectionScreenElements/WW/ShopOpen/ShopOpen'
+
+2018-06-22 16:51:26 - [TEST_STEP][FAILED] - verifyElementExist: Failed to check for element 'Object Repository/CommonScreenElements/Validate_CameraScreen' exist (Root cause: Element 'Object Repository/CommonScreenElements/Validate_CameraScreen' not found)
+
+2018-06-22 16:51:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2018-06-22 16:51:47 - [MESSAGE][FAILED] - Element 'Object Repository/CommonScreenElements/Validate_CameraScreen' not found
+[[ATTACHMENT|F:\\Git Projects\\MMAPlus_Supervisor\\MMAPlus_Supervisor\\Reports\\Visit Shop With Chiller And Overwrite Scenario\\20180622_164924\\1529668306253.png]]
+
+2018-06-22 16:51:49 - [MESSAGE][FAILED] - Failed to check for element 'Object Repository/CommonScreenElements/Validate_CameraScreen' exist (Root cause: Element 'Object Repository/CommonScreenElements/Validate_CameraScreen' not found)
+[[ATTACHMENT|F:\\Git Projects\\MMAPlus_Supervisor\\MMAPlus_Supervisor\\Reports\\Visit Shop With Chiller And Overwrite Scenario\\20180622_164924\\1529668307905.png]]]]></system-out>
+         <system-err><![CDATA[2018-06-22 16:51:14 - [TEST_CASE][FAILED] - Test Cases/WW/ShopOpen/VisitShopOpen: Test Cases/WW/ShopOpen/VisitShopOpen FAILED because (of) Failed to check for element 'Object Repository/CommonScreenElements/Validate_CameraScreen' exist (Root cause: Element 'Object Repository/CommonScreenElements/Validate_CameraScreen' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WW/ShopOpen/VisitShopProducts" classname="Test Cases/WW/ShopOpen/VisitShopProducts" status="ERROR">
+         <error type="ERROR" message="Test Cases/WW/ShopOpen/VisitShopProducts FAILED because (of) java.lang.NoClassDefFoundError: Could not initialize class customkeywords.CustomKeywordsCollection"/>
+         <system-out><![CDATA[2018-06-22 16:51:49 - [TEST_CASE][ERROR] - Test Cases/WW/ShopOpen/VisitShopProducts: Test Cases/WW/ShopOpen/VisitShopProducts FAILED because (of) java.lang.NoClassDefFoundError: Could not initialize class customkeywords.CustomKeywordsCollection
+
+2018-06-22 16:51:50 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ModuleSelectionScreenElements/WW/ShopOpen/Validate_ShopModulesScreen' are matched.
+
+2018-06-22 16:52:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ModuleSelectionScreenElements/WW/ShopOpen/Validate_ShopModulesScreen' are matched.
+
+2018-06-22 16:52:00 - [TEST_STEP][ERROR] - customkeywords.CustomKeywordsCollection.visitShopProducts: Could not initialize class customkeywords.CustomKeywordsCollection
+
+2018-06-22 16:52:00 - [MESSAGE][ERROR] - Could not initialize class customkeywords.CustomKeywordsCollection]]></system-out>
+         <system-err><![CDATA[2018-06-22 16:51:49 - [TEST_CASE][ERROR] - Test Cases/WW/ShopOpen/VisitShopProducts: Test Cases/WW/ShopOpen/VisitShopProducts FAILED because (of) java.lang.NoClassDefFoundError: Could not initialize class customkeywords.CustomKeywordsCollection]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-22 16:49:27 - [TEST_SUITE][ERROR] - Visit Shop With Chiller And Overwrite Scenario: Test Cases/Attendance/MarkSupervisorAttendance FAILED because (of) java.lang.NoClassDefFoundError: Could not initialize class customkeywords.CustomKeywordsCollection]]></system-out>
+      <system-err><![CDATA[2018-06-22 16:49:27 - [TEST_SUITE][ERROR] - Visit Shop With Chiller And Overwrite Scenario: Test Cases/Attendance/MarkSupervisorAttendance FAILED because (of) java.lang.NoClassDefFoundError: Could not initialize class customkeywords.CustomKeywordsCollection]]></system-err>
+   </testsuite>
+</testsuites>

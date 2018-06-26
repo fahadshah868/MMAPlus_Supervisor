@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Visit Shop With Chiller And Overwrite Scenario" time="254" tests="6" failures="0" errors="1">
+   <testsuite name="Visit Shop With Chiller And Overwrite Scenario" tests="6" failures="0" errors="1" time="254" timestamp="2018-06-26 13:01:39" hostname="itcity - DESKTOP-3AG49P4" id="Test Suites/Visit Shop With Chiller And Overwrite Scenario">
+      <properties>
+         <property name="deviceName" value="samsung SM-J110H (Android 4.4.4)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\Git Projects\\MMAPlus_Supervisor\\MMAPlus_Supervisor\\Reports\\Visit Shop With Chiller And Overwrite Scenario\\20180626_130136"/>
+         <property name="logFiles" value="F:\\Git Projects\\MMAPlus_Supervisor\\MMAPlus_Supervisor\\Reports\\Visit Shop With Chiller And Overwrite Scenario\\20180626_130136\\appium.log, F:\\Git Projects\\MMAPlus_Supervisor\\MMAPlus_Supervisor\\Reports\\Visit Shop With Chiller And Overwrite Scenario\\20180626_130136\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="itcity - DESKTOP-3AG49P4"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.0"/>
+         <property name="deviceModel" value="SM-J110H"/>
+         <property name="hostAddress" value="192.168.3.191"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="11015a1136d0b24a"/>
+         <property name="deviceName" value="samsung SM-J110H (Android 4.4.4)"/>
+         <property name="deviceOSVersion" value="4.4.4"/>
+      </properties>
+      <testcase name="Test Cases/LaunchingApp/LaunchApp" classname="Test Cases/LaunchingApp/LaunchApp" status="PASSED">
+         <system-out><![CDATA[2018-06-26 13:01:39 - [TEST_CASE][PASSED] - Test Cases/LaunchingApp/LaunchApp: Test Cases/LaunchingApp/LaunchApp
+
+2018-06-26 13:01:40 - [TEST_STEP][PASSED] - startApplication: Started app at: 'F:\QA_Automation\Builds\MMAPlus_Sup_v147_0304_live.apk'
+
+2018-06-26 13:02:00 - [MESSAGE][PASSED] - Started app at: 'F:\QA_Automation\Builds\MMAPlus_Sup_v147_0304_live.apk'
+
+2018-06-26 13:02:00 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-06-26 13:02:06 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Attendance/MarkSupervisorAttendance" classname="Test Cases/Attendance/MarkSupervisorAttendance" status="PASSED">
+         <system-out><![CDATA[2018-06-26 13:02:06 - [TEST_CASE][PASSED] - Test Cases/Attendance/MarkSupervisorAttendance: Test Cases/Attendance/MarkSupervisorAttendance
+
+2018-06-26 13:02:06 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/DashboardScreenElements/Validate_DashboardScreen' are matched.
+
+2018-06-26 13:02:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/DashboardScreenElements/Validate_DashboardScreen' are matched.
+
+2018-06-26 13:02:07 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/DashboardScreenElements/Attendance'
+
+2018-06-26 13:02:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2018-06-26 13:02:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/DashboardScreenElements/Attendance'
+
+2018-06-26 13:02:08 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/SupervisorAttendanceScreenElements/Validate_AttendanceScreen' are matched.
+
+2018-06-26 13:02:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SupervisorAttendanceScreenElements/Validate_AttendanceScreen' are matched.
+
+2018-06-26 13:02:11 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SupervisorAttendanceScreenElements/CheckIn_RadioButton'
+
+2018-06-26 13:02:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2018-06-26 13:02:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SupervisorAttendanceScreenElements/CheckIn_RadioButton'
+
+2018-06-26 13:02:11 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SupervisorAttendanceScreenElements/SubmitButton'
+
+2018-06-26 13:02:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2018-06-26 13:02:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SupervisorAttendanceScreenElements/SubmitButton'
+
+2018-06-26 13:02:13 - [TEST_STEP][PASSED] - customkeywords.CustomKeywordsCollection.checkSupervisorSelfie: customkeywords.CustomKeywordsCollection.checkSupervisorSelfie is PASSED
+
+2018-06-26 13:02:29 - [MESSAGE][PASSED] - Element 'Object Repository/CommonScreenElements/Validate_MapScreen' is present
+
+2018-06-26 13:02:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2018-06-26 13:02:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonScreenElements/Location_CheckIn'
+
+2018-06-26 13:02:30 - [MESSAGE][PASSED] - customkeywords.CustomKeywordsCollection.checkSupervisorSelfie is PASSED
+
+2018-06-26 13:02:30 - [TEST_STEP][PASSED] - verifyElementExist: Element 'Object Repository/CommonScreenElements/Validate_InfoPopUP' is exist
+
+2018-06-26 13:02:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2018-06-26 13:02:31 - [MESSAGE][PASSED] - Element 'Object Repository/CommonScreenElements/Validate_InfoPopUP' is exist
+
+2018-06-26 13:02:31 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/CommonScreenElements/InfoPopUp_NoButton'
+
+2018-06-26 13:02:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2018-06-26 13:02:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonScreenElements/InfoPopUp_NoButton']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Attendance/MarkMerchandisersAttendance" classname="Test Cases/Attendance/MarkMerchandisersAttendance" status="PASSED">
+         <system-out><![CDATA[2018-06-26 13:02:32 - [TEST_CASE][PASSED] - Test Cases/Attendance/MarkMerchandisersAttendance: Test Cases/Attendance/MarkMerchandisersAttendance
+
+2018-06-26 13:02:32 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/MerchandiserAttendanceScreenElements/Validate_MerchandisersAttendanceScreen' are matched.
+
+2018-06-26 13:02:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MerchandiserAttendanceScreenElements/Validate_MerchandisersAttendanceScreen' are matched.
+
+2018-06-26 13:02:33 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/MerchandiserAttendanceScreenElements/StartYourDay'
+
+2018-06-26 13:02:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2018-06-26 13:02:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MerchandiserAttendanceScreenElements/StartYourDay'
+
+2018-06-26 13:02:34 - [TEST_STEP][PASSED] - customkeywords.CustomKeywordsCollection.markMerchandisersAttendance: customkeywords.CustomKeywordsCollection.markMerchandisersAttendance is PASSED
+
+2018-06-26 13:02:34 - [MESSAGE][PASSED] - customkeywords.CustomKeywordsCollection.markMerchandisersAttendance is PASSED
+
+2018-06-26 13:02:34 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/MerchandiserAttendanceScreenElements/Validate_ScoringScreen' is present
+
+2018-06-26 13:03:34 - [MESSAGE][PASSED] - Element 'Object Repository/MerchandiserAttendanceScreenElements/Validate_ScoringScreen' is present
+
+2018-06-26 13:03:34 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/MerchandiserAttendanceScreenElements/Validate_ScoringScreen' are matched.
+
+2018-06-26 13:03:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MerchandiserAttendanceScreenElements/Validate_ScoringScreen' are matched.
+
+2018-06-26 13:03:35 - [TEST_STEP][PASSED] - customkeywords.CustomKeywordsCollection.selectMerchandiser: customkeywords.CustomKeywordsCollection.selectMerchandiser is PASSED
+
+2018-06-26 13:03:47 - [MESSAGE][PASSED] - Element 'Object Repository/ModuleSelectionScreenElements/Validate_ModuleSelectionScreen' is present
+
+2018-06-26 13:03:47 - [MESSAGE][PASSED] - customkeywords.CustomKeywordsCollection.selectMerchandiser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WW/VisitWW" classname="Test Cases/WW/VisitWW" status="PASSED">
+         <system-out><![CDATA[2018-06-26 13:03:47 - [TEST_CASE][PASSED] - Test Cases/WW/VisitWW: Test Cases/WW/VisitWW
+
+2018-06-26 13:03:47 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ModuleSelectionScreenElements/Validate_ModuleSelectionScreen' are matched.
+
+2018-06-26 13:03:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ModuleSelectionScreenElements/Validate_ModuleSelectionScreen' are matched.
+
+2018-06-26 13:03:48 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/ModuleSelectionScreenElements/WW/WW'
+
+2018-06-26 13:03:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2018-06-26 13:03:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/ModuleSelectionScreenElements/WW/WW'
+
+2018-06-26 13:03:48 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/ModuleSelectionScreenElements/WW/Validate_RoutListScreen' is present
+
+2018-06-26 13:03:50 - [MESSAGE][PASSED] - Element 'Object Repository/ModuleSelectionScreenElements/WW/Validate_RoutListScreen' is present
+
+2018-06-26 13:03:50 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ModuleSelectionScreenElements/WW/Validate_RoutListScreen' are matched.
+
+2018-06-26 13:03:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ModuleSelectionScreenElements/WW/Validate_RoutListScreen' are matched.
+
+2018-06-26 13:03:50 - [TEST_STEP][NOT_RUN] - customkeywords.CustomKeywordsCollection.selectRoute: NOT_RUN: customkeywords.CustomKeywordsCollection.selectRoute
+
+2018-06-26 13:03:50 - [MESSAGE][NOT_RUN] - NOT_RUN: customkeywords.CustomKeywordsCollection.selectRoute]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WW/ShopWithChiller/ChooseShopForShopOpen" classname="Test Cases/WW/ShopWithChiller/ChooseShopForShopOpen" status="PASSED">
+         <system-out><![CDATA[2018-06-26 13:03:50 - [TEST_CASE][PASSED] - Test Cases/WW/ShopWithChiller/ChooseShopForShopOpen: Test Cases/WW/ShopWithChiller/ChooseShopForShopOpen
+
+2018-06-26 13:03:50 - [TEST_STEP][PASSED] - swipe: Swiped from 0,200 to 0,600
+
+2018-06-26 13:03:51 - [MESSAGE][PASSED] - Swiped from 0,200 to 0,600
+
+2018-06-26 13:03:51 - [TEST_STEP][PASSED] - swipe: Swiped from 0,200 to 0,600
+
+2018-06-26 13:03:52 - [MESSAGE][PASSED] - Swiped from 0,200 to 0,600
+
+2018-06-26 13:03:52 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ModuleSelectionScreenElements/WW/Validate_ShopListScreen' are matched.
+
+2018-06-26 13:03:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ModuleSelectionScreenElements/WW/Validate_ShopListScreen' are matched.
+
+2018-06-26 13:03:55 - [TEST_STEP][PASSED] - customkeywords.CustomKeywordsCollection.selectShopWithChiller: customkeywords.CustomKeywordsCollection.selectShopWithChiller is PASSED
+
+2018-06-26 13:03:59 - [MESSAGE][PASSED] - customkeywords.CustomKeywordsCollection.selectShopWithChiller is PASSED
+
+2018-06-26 13:03:59 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ModuleSelectionScreenElements/WW/Validate_ShopOptionsScreen' are matched.
+
+2018-06-26 13:04:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ModuleSelectionScreenElements/WW/Validate_ShopOptionsScreen' are matched.
+
+2018-06-26 13:04:01 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/ModuleSelectionScreenElements/WW/StartWorking'
+
+2018-06-26 13:04:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2018-06-26 13:04:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/ModuleSelectionScreenElements/WW/StartWorking'
+
+2018-06-26 13:04:01 - [TEST_STEP][NOT_RUN] - verifyElementExist: NOT_RUN: verifyElementExist
+
+2018-06-26 13:04:01 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementExist
+
+2018-06-26 13:04:01 - [TEST_STEP][NOT_RUN] - tap: NOT_RUN: tap
+
+2018-06-26 13:04:01 - [MESSAGE][NOT_RUN] - NOT_RUN: tap
+
+2018-06-26 13:04:01 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/CommonScreenElements/Validate_MapScreen' is present
+
+2018-06-26 13:04:17 - [MESSAGE][PASSED] - Element 'Object Repository/CommonScreenElements/Validate_MapScreen' is present
+
+2018-06-26 13:04:17 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/CommonScreenElements/Location_CheckIn'
+
+2018-06-26 13:04:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2018-06-26 13:04:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonScreenElements/Location_CheckIn'
+
+2018-06-26 13:04:18 - [TEST_STEP][PASSED] - verifyElementExist: Element 'Object Repository/CommonScreenElements/Validate_InfoPopUP' is exist
+
+2018-06-26 13:04:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2018-06-26 13:04:19 - [MESSAGE][PASSED] - Element 'Object Repository/CommonScreenElements/Validate_InfoPopUP' is exist
+
+2018-06-26 13:04:19 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/CommonScreenElements/InfoPopUp_NoButton'
+
+2018-06-26 13:04:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2018-06-26 13:04:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonScreenElements/InfoPopUp_NoButton'
+
+2018-06-26 13:04:20 - [TEST_STEP][PASSED] - verifyElementExist: Element 'Object Repository/ModuleSelectionScreenElements/WW/ShopActions_List' is exist
+
+2018-06-26 13:04:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2018-06-26 13:04:20 - [MESSAGE][PASSED] - Element 'Object Repository/ModuleSelectionScreenElements/WW/ShopActions_List' is exist]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WW/ShopOpen/VisitShopOpen" classname="Test Cases/WW/ShopOpen/VisitShopOpen" status="PASSED">
+         <system-out><![CDATA[2018-06-26 13:04:20 - [TEST_CASE][PASSED] - Test Cases/WW/ShopOpen/VisitShopOpen: Test Cases/WW/ShopOpen/VisitShopOpen
+
+2018-06-26 13:04:21 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/ModuleSelectionScreenElements/WW/ShopOpen/ShopOpen'
+
+2018-06-26 13:04:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2018-06-26 13:04:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/ModuleSelectionScreenElements/WW/ShopOpen/ShopOpen'
+
+2018-06-26 13:04:22 - [TEST_STEP][PASSED] - verifyElementExist: Element 'Object Repository/CommonScreenElements/Validate_CameraScreen' is exist
+
+2018-06-26 13:04:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2018-06-26 13:04:23 - [MESSAGE][PASSED] - Element 'Object Repository/CommonScreenElements/Validate_CameraScreen' is exist
+
+2018-06-26 13:04:23 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/CommonScreenElements/TakePictureButton'
+
+2018-06-26 13:04:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2018-06-26 13:04:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonScreenElements/TakePictureButton'
+
+2018-06-26 13:04:24 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-06-26 13:04:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-06-26 13:04:29 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/CommonScreenElements/DoneButton'
+
+2018-06-26 13:04:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2018-06-26 13:04:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonScreenElements/DoneButton']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WW/ShopOpen/VisitShopProducts" classname="Test Cases/WW/ShopOpen/VisitShopProducts" status="ERROR">
+         <error type="ERROR" message="Test Cases/WW/ShopOpen/VisitShopProducts FAILED because (of) Variable 'i' is not defined for test case."/>
+         <system-out><![CDATA[2018-06-26 13:04:30 - [TEST_CASE][ERROR] - Test Cases/WW/ShopOpen/VisitShopProducts: Test Cases/WW/ShopOpen/VisitShopProducts FAILED because (of) Variable 'i' is not defined for test case.
+
+2018-06-26 13:04:31 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ModuleSelectionScreenElements/WW/ShopOpen/Validate_ShopModulesScreen' are matched.
+
+2018-06-26 13:04:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ModuleSelectionScreenElements/WW/ShopOpen/Validate_ShopModulesScreen' are matched.
+
+2018-06-26 13:04:32 - [TEST_STEP][ERROR] - customkeywords.CustomKeywordsCollection.visitShopProducts: No such property: i for class: customkeywords.CustomKeywordsCollection
+
+2018-06-26 13:04:42 - [MESSAGE][PASSED] - Swiped from 0,293 to 0,200
+
+2018-06-26 13:04:46 - [MESSAGE][PASSED] - Swiped from 0,293 to 0,200
+
+2018-06-26 13:04:50 - [MESSAGE][PASSED] - Swiped from 0,293 to 0,200
+
+2018-06-26 13:04:54 - [MESSAGE][PASSED] - Swiped from 0,293 to 0,200
+
+2018-06-26 13:04:58 - [MESSAGE][PASSED] - Swiped from 0,293 to 0,200
+
+2018-06-26 13:05:02 - [MESSAGE][PASSED] - Swiped from 0,293 to 0,200
+
+2018-06-26 13:05:06 - [MESSAGE][PASSED] - Swiped from 0,293 to 0,200
+
+2018-06-26 13:05:10 - [MESSAGE][PASSED] - Swiped from 0,293 to 0,200
+
+2018-06-26 13:05:14 - [MESSAGE][PASSED] - Swiped from 0,293 to 0,200
+
+2018-06-26 13:05:16 - [TEST_CASE][ERROR] - Test Cases/WW/ShopOpen/AdditionalPicture/VisitAdditionalPicture: Test Cases/WW/ShopOpen/AdditionalPicture/VisitAdditionalPicture FAILED because (of) Variable 'i' is not defined for test case.
+
+2018-06-26 13:05:17 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ModuleSelectionScreenElements/WW/ShopOpen/AdditionalPicture/Validate_AdditionalPictureScreen' are matched.
+
+2018-06-26 13:05:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ModuleSelectionScreenElements/WW/ShopOpen/AdditionalPicture/Validate_AdditionalPictureScreen' are matched.
+
+2018-06-26 13:05:18 - [TEST_STEP][ERROR] - customkeywords.CustomKeywordsCollection.comapareImages: No such property: i for class: customkeywords.CustomKeywordsCollection
+
+2018-06-26 13:05:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2018-06-26 13:05:25 - [MESSAGE][PASSED] - Element 'Object Repository/CommonScreenElements/Validate_CameraScreen' is exist
+
+2018-06-26 13:05:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2018-06-26 13:05:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonScreenElements/TakePictureButton'
+
+2018-06-26 13:05:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2018-06-26 13:05:30 - [MESSAGE][PASSED] - Element 'Object Repository/CommonScreenElements/DoneButton' is present
+
+2018-06-26 13:05:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2018-06-26 13:05:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonScreenElements/DoneButton'
+
+2018-06-26 13:05:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2018-06-26 13:05:34 - [MESSAGE][PASSED] - Element 'Object Repository/CommonScreenElements/Validate_CameraScreen' is exist
+
+2018-06-26 13:05:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2018-06-26 13:05:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonScreenElements/TakePictureButton'
+
+2018-06-26 13:05:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2018-06-26 13:05:39 - [MESSAGE][PASSED] - Element 'Object Repository/CommonScreenElements/DoneButton' is present
+
+2018-06-26 13:05:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2018-06-26 13:05:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonScreenElements/DoneButton'
+
+2018-06-26 13:05:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2018-06-26 13:05:43 - [MESSAGE][PASSED] - Element 'Object Repository/CommonScreenElements/Validate_CameraScreen' is exist
+
+2018-06-26 13:05:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2018-06-26 13:05:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonScreenElements/TakePictureButton'
+
+2018-06-26 13:05:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2018-06-26 13:05:46 - [MESSAGE][PASSED] - Element 'Object Repository/CommonScreenElements/DoneButton' is present
+
+2018-06-26 13:05:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2018-06-26 13:05:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonScreenElements/DoneButton'
+
+2018-06-26 13:05:49 - [MESSAGE][PASSED] - Swiped from 0,370 to 0,200
+
+2018-06-26 13:05:52 - [MESSAGE][PASSED] - Swiped from 0,540 to 0,200
+
+2018-06-26 13:05:53 - [MESSAGE][ERROR] - No such property: i for class: customkeywords.CustomKeywordsCollection
+
+2018-06-26 13:05:53 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/WW/ShopOpen/AdditionalPicture/VisitAdditionalPicture' (Root cause: Call Test Case 'Test Cases/WW/ShopOpen/AdditionalPicture/VisitAdditionalPicture' failed because of error(s))
+
+2018-06-26 13:05:53 - [MESSAGE][ERROR] - No such property: i for class: customkeywords.CustomKeywordsCollection]]></system-out>
+         <system-err><![CDATA[2018-06-26 13:04:30 - [TEST_CASE][ERROR] - Test Cases/WW/ShopOpen/VisitShopProducts: Test Cases/WW/ShopOpen/VisitShopProducts FAILED because (of) Variable 'i' is not defined for test case.]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-26 13:01:39 - [TEST_SUITE][ERROR] - Visit Shop With Chiller And Overwrite Scenario: Test Cases/WW/ShopOpen/VisitShopProducts FAILED because (of) Variable 'i' is not defined for test case.]]></system-out>
+      <system-err><![CDATA[2018-06-26 13:01:39 - [TEST_SUITE][ERROR] - Visit Shop With Chiller And Overwrite Scenario: Test Cases/WW/ShopOpen/VisitShopProducts FAILED because (of) Variable 'i' is not defined for test case.]]></system-err>
+   </testsuite>
+</testsuites>
