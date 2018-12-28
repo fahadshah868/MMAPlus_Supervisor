@@ -6,16 +6,14 @@
    <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@class = 'android.widget.Button' and @instance = '0' and (text() = 'YES' or . = 'YES') and @resource-id = 'com.concavetech.bloc:id/yes']</value>
+         <key>XPATH</key>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value></value>
+         <key>BASIC</key>
+         <value>//*[@class = 'android.widget.Button' and @instance = '0' and (text() = 'YES' or . = 'YES') and @resource-id = '${package}:id/yes']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -46,14 +44,14 @@
       <matchCondition>equals</matchCondition>
       <name>resource-id</name>
       <type>Main</type>
-      <value>com.concavetech.bloc:id/yes</value>
+      <value>${package}:id/yes</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>package</name>
       <type>Main</type>
-      <value>com.concavetech.bloc</value>
+      <value>${package}</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

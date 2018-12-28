@@ -6,172 +6,254 @@
 import java.lang.String
 
 
-def static "customkeywords.CustomKeywordsCollection.checkSupervisorSelfie"() {
-    (new customkeywords.CustomKeywordsCollection()).checkSupervisorSelfie()
+def static "com.ct.qa.keywords.ChannelProductsDataKeywords.visitChillerNotAllocatedProductCategories"(
+    	int flag	) {
+    (new com.ct.qa.keywords.ChannelProductsDataKeywords()).visitChillerNotAllocatedProductCategories(
+        	flag)
 }
 
-def static "customkeywords.CustomKeywordsCollection.markMerchandisersAttendance"() {
-    (new customkeywords.CustomKeywordsCollection()).markMerchandisersAttendance()
+def static "com.ct.qa.keywords.ChannelProductsDataKeywords.visitNestradeProductsCategoriesWithDSA"(
+    	int flag	) {
+    (new com.ct.qa.keywords.ChannelProductsDataKeywords()).visitNestradeProductsCategoriesWithDSA(
+        	flag)
 }
 
-def static "customkeywords.CustomKeywordsCollection.selectMerchandiser"() {
-    (new customkeywords.CustomKeywordsCollection()).selectMerchandiser()
+def static "com.ct.qa.keywords.ChannelProductsDataKeywords.visitNestradeProductsCategoriesWithNSFD"(
+    	int flag	) {
+    (new com.ct.qa.keywords.ChannelProductsDataKeywords()).visitNestradeProductsCategoriesWithNSFD(
+        	flag)
 }
 
-def static "customkeywords.CustomKeywordsCollection.selectRoute"() {
-    (new customkeywords.CustomKeywordsCollection()).selectRoute()
+def static "com.ct.qa.keywords.ChannelProductsDataKeywords.visitChannelWiseProductsData"(
+    	int columnindex	
+     , 	String assettype	) {
+    (new com.ct.qa.keywords.ChannelProductsDataKeywords()).visitChannelWiseProductsData(
+        	columnindex
+         , 	assettype)
 }
 
-def static "customkeywords.CustomKeywordsCollection.checkUnCapturedShops"() {
-    (new customkeywords.CustomKeywordsCollection()).checkUnCapturedShops()
+def static "com.ct.qa.keywords.AdditionalPictureKeywords.takeMendatoryImages"() {
+    (new com.ct.qa.keywords.AdditionalPictureKeywords()).takeMendatoryImages()
 }
 
-def static "customkeywords.CustomKeywordsCollection.findPictureImageView"() {
-    (new customkeywords.CustomKeywordsCollection()).findPictureImageView()
+def static "com.ct.qa.keywords.ShopVisitingScenariosKeywords.visitShopWith_HappyFlow"() {
+    (new com.ct.qa.keywords.ShopVisitingScenariosKeywords()).visitShopWith_HappyFlow()
 }
 
-def static "customkeywords.CustomKeywordsCollection.selectShopWithChiller"() {
-    (new customkeywords.CustomKeywordsCollection()).selectShopWithChiller()
+def static "com.ct.qa.keywords.ShopVisitingScenariosKeywords.visitShopWith_DataVerification"() {
+    (new com.ct.qa.keywords.ShopVisitingScenariosKeywords()).visitShopWith_DataVerification()
 }
 
-def static "customkeywords.CustomKeywordsCollection.selectShopWithChillerUtilization"() {
-    (new customkeywords.CustomKeywordsCollection()).selectShopWithChillerUtilization()
+def static "com.ct.qa.keywords.ShopVisitingScenariosKeywords.visitShopsWithShopLevel_OverwritingScenarios"() {
+    (new com.ct.qa.keywords.ShopVisitingScenariosKeywords()).visitShopsWithShopLevel_OverwritingScenarios()
 }
 
-def static "customkeywords.CustomKeywordsCollection.visitShopProducts"() {
-    (new customkeywords.CustomKeywordsCollection()).visitShopProducts()
+def static "com.ct.qa.keywords.ShopVisitingScenariosKeywords.visitShopsWithShopLevel_OverwriteScenarios"() {
+    (new com.ct.qa.keywords.ShopVisitingScenariosKeywords()).visitShopsWithShopLevel_OverwriteScenarios()
 }
 
-def static "customkeywords.CustomKeywordsCollection.overwriteShopProducts"() {
-    (new customkeywords.CustomKeywordsCollection()).overwriteShopProducts()
+def static "com.ct.qa.keywords.ShopVisitingScenariosKeywords.visitShopsWith_CategoryLevel_OverwritingScenarios"() {
+    (new com.ct.qa.keywords.ShopVisitingScenariosKeywords()).visitShopsWith_CategoryLevel_OverwritingScenarios()
 }
 
-def static "customkeywords.CustomKeywordsCollection.checkPlanogramAvailability"() {
-    (new customkeywords.CustomKeywordsCollection()).checkPlanogramAvailability()
+def static "com.ct.qa.keywords.ShopVisitingScenariosKeywords.visitShopsWith_CategoryLevel_OverwriteScenarios"() {
+    (new com.ct.qa.keywords.ShopVisitingScenariosKeywords()).visitShopsWith_CategoryLevel_OverwriteScenarios()
 }
 
-def static "customkeywords.CustomKeywordsCollection.visitChillerJuices"() {
-    (new customkeywords.CustomKeywordsCollection()).visitChillerJuices()
+def static "com.ct.qa.keywords.CommonKeywords.selectday"() {
+    (new com.ct.qa.keywords.CommonKeywords()).selectday()
 }
 
-def static "customkeywords.CustomKeywordsCollection.overwriteChillerJuices"() {
-    (new customkeywords.CustomKeywordsCollection()).overwriteChillerJuices()
+def static "com.ct.qa.keywords.CommonKeywords.checkPlanogramAvailability"() {
+    (new com.ct.qa.keywords.CommonKeywords()).checkPlanogramAvailability()
 }
 
-def static "customkeywords.CustomKeywordsCollection.findShopProduct"(
-    	String _productname	) {
-    (new customkeywords.CustomKeywordsCollection()).findShopProduct(
-        	_productname)
+def static "com.ct.qa.keywords.CommonKeywords.closePlanogram"() {
+    (new com.ct.qa.keywords.CommonKeywords()).closePlanogram()
 }
 
-def static "customkeywords.CustomKeywordsCollection.visitSachetsProducts"() {
-    (new customkeywords.CustomKeywordsCollection()).visitSachetsProducts()
+def static "com.ct.qa.keywords.CommonKeywords.visitPictureImageViewButton"() {
+    (new com.ct.qa.keywords.CommonKeywords()).visitPictureImageViewButton()
 }
 
-def static "customkeywords.CustomKeywordsCollection.overwriteSachetsProducts"() {
-    (new customkeywords.CustomKeywordsCollection()).overwriteSachetsProducts()
+def static "com.ct.qa.keywords.CommonKeywords.visitBackImageViewButton"() {
+    (new com.ct.qa.keywords.CommonKeywords()).visitBackImageViewButton()
 }
 
-def static "customkeywords.CustomKeywordsCollection.visitCompetitiontrackingProducts"() {
-    (new customkeywords.CustomKeywordsCollection()).visitCompetitiontrackingProducts()
+def static "com.ct.qa.keywords.CommonKeywords.visitPlanogramImageViewButton"() {
+    (new com.ct.qa.keywords.CommonKeywords()).visitPlanogramImageViewButton()
 }
 
-def static "customkeywords.CustomKeywordsCollection.overwriteCompetitiontrackingProducts"() {
-    (new customkeywords.CustomKeywordsCollection()).overwriteCompetitiontrackingProducts()
+def static "com.ct.qa.keywords.CommonKeywords.visitSKDNA_ForChannel"() {
+    (new com.ct.qa.keywords.CommonKeywords()).visitSKDNA_ForChannel()
 }
 
-def static "customkeywords.CustomKeywordsCollection.visitRTMVisitFrequency"() {
-    (new customkeywords.CustomKeywordsCollection()).visitRTMVisitFrequency()
+def static "com.ct.qa.keywords.CommonKeywords.visitSKDNA_ForChiller"() {
+    (new com.ct.qa.keywords.CommonKeywords()).visitSKDNA_ForChiller()
 }
 
-def static "customkeywords.CustomKeywordsCollection.overwriteRTMVisitFrequency"() {
-    (new customkeywords.CustomKeywordsCollection()).overwriteRTMVisitFrequency()
+def static "com.ct.qa.keywords.SurveyKeywords.visitQuestionCategories"(
+    	int flag	) {
+    (new com.ct.qa.keywords.SurveyKeywords()).visitQuestionCategories(
+        	flag)
 }
 
-def static "customkeywords.CustomKeywordsCollection.visitRetailerRemarks"() {
-    (new customkeywords.CustomKeywordsCollection()).visitRetailerRemarks()
+def static "com.ct.qa.keywords.SurveyKeywords.visitQuestions"() {
+    (new com.ct.qa.keywords.SurveyKeywords()).visitQuestions()
 }
 
-def static "customkeywords.CustomKeywordsCollection.overwriteRetailerRemarks"() {
-    (new customkeywords.CustomKeywordsCollection()).overwriteRetailerRemarks()
+def static "com.ct.qa.keywords.SurveyKeywords.overwriteQuestions"() {
+    (new com.ct.qa.keywords.SurveyKeywords()).overwriteQuestions()
 }
 
-def static "customkeywords.CustomKeywordsCollection.visitChillerUtilization"() {
-    (new customkeywords.CustomKeywordsCollection()).visitChillerUtilization()
+def static "com.ct.qa.keywords.ChillerVisitingScenariosKeywords.visitChillersTaggedInChillerUtilizationWithDataVerification"() {
+    (new com.ct.qa.keywords.ChillerVisitingScenariosKeywords()).visitChillersTaggedInChillerUtilizationWithDataVerification()
 }
 
-def static "customkeywords.CustomKeywordsCollection.overwriteChillerUtilization"() {
-    (new customkeywords.CustomKeywordsCollection()).overwriteChillerUtilization()
+def static "com.ct.qa.keywords.ChillerVisitingScenariosKeywords.visitChillersTaggedinChillerUtilizationWithSingleRemark"(
+    	String chillerremark	) {
+    (new com.ct.qa.keywords.ChillerVisitingScenariosKeywords()).visitChillersTaggedinChillerUtilizationWithSingleRemark(
+        	chillerremark)
 }
 
-def static "customkeywords.CustomKeywordsCollection.visitChillerAvailableProductsCategories"() {
-    (new customkeywords.CustomKeywordsCollection()).visitChillerAvailableProductsCategories()
+def static "com.ct.qa.keywords.ChillerVisitingScenariosKeywords.overwriteChillersTaggedinChillerUtilizationWithSingleRemark"(
+    	String chillerremark	) {
+    (new com.ct.qa.keywords.ChillerVisitingScenariosKeywords()).overwriteChillersTaggedinChillerUtilizationWithSingleRemark(
+        	chillerremark)
 }
 
-def static "customkeywords.CustomKeywordsCollection.overwriteChillerAvailableProductsCategories"() {
-    (new customkeywords.CustomKeywordsCollection()).overwriteChillerAvailableProductsCategories()
+def static "com.ct.qa.keywords.ChillerVisitingScenariosKeywords.findChillerRemark"(
+    	String _chillerremark	) {
+    (new com.ct.qa.keywords.ChillerVisitingScenariosKeywords()).findChillerRemark(
+        	_chillerremark)
 }
 
-def static "customkeywords.CustomKeywordsCollection.overwriteChillerAvailableFlavouredMilkProducts"() {
-    (new customkeywords.CustomKeywordsCollection()).overwriteChillerAvailableFlavouredMilkProducts()
+def static "com.ct.qa.keywords.ChillerVisitingScenariosKeywords.selectChillerType"() {
+    (new com.ct.qa.keywords.ChillerVisitingScenariosKeywords()).selectChillerType()
 }
 
-def static "customkeywords.CustomKeywordsCollection.overwriteChillerAvailableJuices1000mlProducts"() {
-    (new customkeywords.CustomKeywordsCollection()).overwriteChillerAvailableJuices1000mlProducts()
+def static "com.ct.qa.keywords.ChillerVisitingScenariosKeywords.selectDifferentChillerType"() {
+    (new com.ct.qa.keywords.ChillerVisitingScenariosKeywords()).selectDifferentChillerType()
 }
 
-def static "customkeywords.CustomKeywordsCollection.overwriteChillerAvailableJuices200mlProducts"() {
-    (new customkeywords.CustomKeywordsCollection()).overwriteChillerAvailableJuices200mlProducts()
+def static "com.ct.qa.keywords.AttendanceKeywords.visitSupervisorAttendanceRemark"() {
+    (new com.ct.qa.keywords.AttendanceKeywords()).visitSupervisorAttendanceRemark()
 }
 
-def static "customkeywords.CustomKeywordsCollection.overwriteChillerAvailableWaterProducts"() {
-    (new customkeywords.CustomKeywordsCollection()).overwriteChillerAvailableWaterProducts()
+def static "com.ct.qa.keywords.AttendanceKeywords.visitMerchandisersAttendance"() {
+    (new com.ct.qa.keywords.AttendanceKeywords()).visitMerchandisersAttendance()
 }
 
-def static "customkeywords.CustomKeywordsCollection.overwriteChillerAvailableYogurtProducts"() {
-    (new customkeywords.CustomKeywordsCollection()).overwriteChillerAvailableYogurtProducts()
+def static "com.ct.qa.keywords.SliderOptionsKeywords.valideSliderOptions"() {
+    (new com.ct.qa.keywords.SliderOptionsKeywords()).valideSliderOptions()
 }
 
-def static "customkeywords.CustomKeywordsCollection.visitChillerAvailableFlavouredMilkProducts"() {
-    (new customkeywords.CustomKeywordsCollection()).visitChillerAvailableFlavouredMilkProducts()
+def static "com.ct.qa.keywords.SliderOptionsKeywords.displayMissingSliderOptionsInReport"() {
+    (new com.ct.qa.keywords.SliderOptionsKeywords()).displayMissingSliderOptionsInReport()
 }
 
-def static "customkeywords.CustomKeywordsCollection.visitChillerAvailableJuices1000mlProducts"() {
-    (new customkeywords.CustomKeywordsCollection()).visitChillerAvailableJuices1000mlProducts()
+def static "com.ct.qa.keywords.SliderOptionsKeywords.findSliderOption"(
+    	String option	) {
+    (new com.ct.qa.keywords.SliderOptionsKeywords()).findSliderOption(
+        	option)
 }
 
-def static "customkeywords.CustomKeywordsCollection.visitChillerAvailableJuices200mlProducts"() {
-    (new customkeywords.CustomKeywordsCollection()).visitChillerAvailableJuices200mlProducts()
+def static "com.ct.qa.keywords.SliderOptionsKeywords.findRoute"() {
+    (new com.ct.qa.keywords.SliderOptionsKeywords()).findRoute()
 }
 
-def static "customkeywords.CustomKeywordsCollection.visitChillerAvailableWaterProducts"() {
-    (new customkeywords.CustomKeywordsCollection()).visitChillerAvailableWaterProducts()
+def static "com.ct.qa.keywords.CategoryVisitingScenariosKeywords.visitShopCategoriesWithDataVerification"() {
+    (new com.ct.qa.keywords.CategoryVisitingScenariosKeywords()).visitShopCategoriesWithDataVerification()
 }
 
-def static "customkeywords.CustomKeywordsCollection.visitChillerAvailableYogurtProducts"() {
-    (new customkeywords.CustomKeywordsCollection()).visitChillerAvailableYogurtProducts()
+def static "com.ct.qa.keywords.CategoryVisitingScenariosKeywords.visitShopCategoriesWithOverwriteScenarios"() {
+    (new com.ct.qa.keywords.CategoryVisitingScenariosKeywords()).visitShopCategoriesWithOverwriteScenarios()
 }
 
-def static "customkeywords.CustomKeywordsCollection.visitChillerNotAvailableProductsCategories"() {
-    (new customkeywords.CustomKeywordsCollection()).visitChillerNotAvailableProductsCategories()
+def static "com.ct.qa.keywords.CategoryVisitingScenariosKeywords.visitShopCategoriesWithOverwritingScenarios"() {
+    (new com.ct.qa.keywords.CategoryVisitingScenariosKeywords()).visitShopCategoriesWithOverwritingScenarios()
 }
 
-def static "customkeywords.CustomKeywordsCollection.visitChillerNotAvailableJuices200mlProducts"() {
-    (new customkeywords.CustomKeywordsCollection()).visitChillerNotAvailableJuices200mlProducts()
+def static "com.ct.qa.keywords.RetailerRemarksKeywords.visitRetailerRemarks"() {
+    (new com.ct.qa.keywords.RetailerRemarksKeywords()).visitRetailerRemarks()
 }
 
-def static "customkeywords.CustomKeywordsCollection.continueChillerAvailableModuleFlowForChillerNeedMaintenance"() {
-    (new customkeywords.CustomKeywordsCollection()).continueChillerAvailableModuleFlowForChillerNeedMaintenance()
+def static "com.ct.qa.keywords.RetailerRemarksKeywords.overwriteRetailerRemarks"() {
+    (new com.ct.qa.keywords.RetailerRemarksKeywords()).overwriteRetailerRemarks()
 }
 
-def static "customkeywords.CustomKeywordsCollection.continueChillerNotAvailableModuleFlowForChillerRemovedForMaintenance"() {
-    (new customkeywords.CustomKeywordsCollection()).continueChillerNotAvailableModuleFlowForChillerRemovedForMaintenance()
+def static "com.ct.qa.keywords.ChillerProductsDataKeywords.visitChillerAvailableProductCategories"(
+    	int flag	) {
+    (new com.ct.qa.keywords.ChillerProductsDataKeywords()).visitChillerAvailableProductCategories(
+        	flag)
 }
 
-def static "customkeywords.CustomKeywordsCollection.continueChillerNotAvailableModuleFlowForChillerNotInAccess"() {
-    (new customkeywords.CustomKeywordsCollection()).continueChillerNotAvailableModuleFlowForChillerNotInAccess()
+def static "com.ct.qa.keywords.ChillerProductsDataKeywords.visitChillerNotAvailableProductCategories"(
+    	int flag	) {
+    (new com.ct.qa.keywords.ChillerProductsDataKeywords()).visitChillerNotAvailableProductCategories(
+        	flag)
 }
 
-def static "customkeywords.CustomKeywordsCollection.comapareImages"() {
-    (new customkeywords.CustomKeywordsCollection()).comapareImages()
+def static "com.ct.qa.keywords.ChillerProductsDataKeywords.visitChillerAvailableProductsData"(
+    	int columnindex	
+     , 	String assettype	) {
+    (new com.ct.qa.keywords.ChillerProductsDataKeywords()).visitChillerAvailableProductsData(
+        	columnindex
+         , 	assettype)
+}
+
+def static "com.ct.qa.keywords.ChillerProductsDataKeywords.VisitChillerNotAvailableProductsData"(
+    	int columnindex	
+     , 	String assettype	) {
+    (new com.ct.qa.keywords.ChillerProductsDataKeywords()).VisitChillerNotAvailableProductsData(
+        	columnindex
+         , 	assettype)
+}
+
+def static "com.ct.qa.keywords.CompetitionTrackingKeywords.visitCompetitiontrackingProducts"() {
+    (new com.ct.qa.keywords.CompetitionTrackingKeywords()).visitCompetitiontrackingProducts()
+}
+
+def static "com.ct.qa.keywords.CompetitionTrackingKeywords.overwriteCompetitiontrackingProducts"() {
+    (new com.ct.qa.keywords.CompetitionTrackingKeywords()).overwriteCompetitiontrackingProducts()
+}
+
+def static "com.ct.qa.keywords.RTMVisitFrequencyKeywords.visitRTMVisitFrequency"() {
+    (new com.ct.qa.keywords.RTMVisitFrequencyKeywords()).visitRTMVisitFrequency()
+}
+
+def static "com.ct.qa.keywords.RTMVisitFrequencyKeywords.overwriteRTMVisitFrequency"() {
+    (new com.ct.qa.keywords.RTMVisitFrequencyKeywords()).overwriteRTMVisitFrequency()
+}
+
+def static "com.ct.qa.keywords.CategoryVisitingScenariosWithOverwritePopUpKeywords.visitShopCategoriesWithOverwritingScenarios"() {
+    (new com.ct.qa.keywords.CategoryVisitingScenariosWithOverwritePopUpKeywords()).visitShopCategoriesWithOverwritingScenarios()
+}
+
+def static "com.ct.qa.keywords.WorkActions.selectAction"(
+    	String _action	) {
+    (new com.ct.qa.keywords.WorkActions()).selectAction(
+        	_action)
+}
+
+def static "com.ct.qa.keywords.WorkActions.selectSubAction"(
+    	String _subaction	) {
+    (new com.ct.qa.keywords.WorkActions()).selectSubAction(
+        	_subaction)
+}
+
+def static "com.ct.qa.keywords.WorkActions.selectRoute"() {
+    (new com.ct.qa.keywords.WorkActions()).selectRoute()
+}
+
+def static "com.ct.qa.keywords.WorkActions.checkUncapturedShops"() {
+    (new com.ct.qa.keywords.WorkActions()).checkUncapturedShops()
+}
+
+def static "com.ct.qa.keywords.MerchandisersScore.displayMissingScoreCardInReport"() {
+    (new com.ct.qa.keywords.MerchandisersScore()).displayMissingScoreCardInReport()
+}
+
+def static "com.ct.qa.keywords.MerchandisersScore.validate_Supervisor_Merchandisers_PD_MTD_Remarks"() {
+    (new com.ct.qa.keywords.MerchandisersScore()).validate_Supervisor_Merchandisers_PD_MTD_Remarks()
 }
