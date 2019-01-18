@@ -52,16 +52,4 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/MerchandisersScore/VisitMerchandisersScore</testCaseId>
    </testCaseLink>
-   <testCaseLink>
-      <guid>7bd603c5-8787-4a9a-96e6-f340de635a16</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/WorkActions/VisitShopsWithShopLevelOverwritingScenarios</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>63162a2f-2c5c-42ca-bb4e-0b41fa6706b2</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/WorkActions/VisitShopsWithShopLevelOverwriteScenarios</testCaseId>
-   </testCaseLink>
 </TestSuiteEntity>

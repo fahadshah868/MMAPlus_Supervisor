@@ -53,7 +53,7 @@ public class ChannelProductsDataKeywords {
 			missingcategorydata.setProductcategories(unmatcheditems.getItems())
 			missingcategorydata.setProductcategories_errormessage(ProjectConstants.MESSAGEFOR_ITEMSARE_NOTMATCH)
 			for(int j=0; j<ProjectConstants.missingshopdatainfo.size(); j++){
-				if(ProjectConstants.missingshopdatainfo.get(j).getShopname().equalsIgnoreCase(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+				if(ProjectConstants.missingshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
 					ProjectConstants.missingshopdatainfo.get(j).setMissingCategoriesData(missingcategorydata, "")
 					break
 				}
@@ -67,7 +67,7 @@ public class ChannelProductsDataKeywords {
 			missingcategorydata.setProductcategories(unmatcheditems.getItems())
 			missingcategorydata.setProductcategories_errormessage(ProjectConstants.MESSAGEFOR_ITEMSARE_MORE)
 			for(int j=0; j<ProjectConstants.missingshopdatainfo.size(); j++){
-				if(ProjectConstants.missingshopdatainfo.get(j).getShopname().equalsIgnoreCase(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+				if(ProjectConstants.missingshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
 					ProjectConstants.missingshopdatainfo.get(j).setMissingCategoriesData(missingcategorydata, "")
 					break
 				}
@@ -81,7 +81,7 @@ public class ChannelProductsDataKeywords {
 			missingcategorydata.setProductcategories(unmatcheditems.getItems())
 			missingcategorydata.setProductcategories_errormessage(ProjectConstants.MESSAGEFOR_ITEMSARE_MISSING)
 			for(int j=0; j<ProjectConstants.missingshopdatainfo.size(); j++){
-				if(ProjectConstants.missingshopdatainfo.get(j).getShopname().equalsIgnoreCase(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+				if(ProjectConstants.missingshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
 					ProjectConstants.missingshopdatainfo.get(j).setMissingCategoriesData(missingcategorydata, "")
 					break
 				}
@@ -117,7 +117,7 @@ public class ChannelProductsDataKeywords {
 			missingcategorydata.setProductcategories(unmatcheditems.getItems())
 			missingcategorydata.setProductcategories_errormessage(ProjectConstants.MESSAGEFOR_ITEMSARE_NOTMATCH)
 			for(int j=0; j<ProjectConstants.missingshopdatainfo.size(); j++){
-				if(ProjectConstants.missingshopdatainfo.get(j).getShopname().equalsIgnoreCase(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+				if(ProjectConstants.missingshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
 					ProjectConstants.missingshopdatainfo.get(j).setMissingCategoriesData(missingcategorydata, "")
 					break
 				}
@@ -131,7 +131,7 @@ public class ChannelProductsDataKeywords {
 			missingcategorydata.setProductcategories(unmatcheditems.getItems())
 			missingcategorydata.setProductcategories_errormessage(ProjectConstants.MESSAGEFOR_ITEMSARE_MORE)
 			for(int j=0; j<ProjectConstants.missingshopdatainfo.size(); j++){
-				if(ProjectConstants.missingshopdatainfo.get(j).getShopname().equalsIgnoreCase(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+				if(ProjectConstants.missingshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
 					ProjectConstants.missingshopdatainfo.get(j).setMissingCategoriesData(missingcategorydata, "")
 					break
 				}
@@ -145,7 +145,7 @@ public class ChannelProductsDataKeywords {
 			missingcategorydata.setProductcategories(unmatcheditems.getItems())
 			missingcategorydata.setProductcategories_errormessage(ProjectConstants.MESSAGEFOR_ITEMSARE_MISSING)
 			for(int j=0; j<ProjectConstants.missingshopdatainfo.size(); j++){
-				if(ProjectConstants.missingshopdatainfo.get(j).getShopname().equalsIgnoreCase(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+				if(ProjectConstants.missingshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
 					ProjectConstants.missingshopdatainfo.get(j).setMissingCategoriesData(missingcategorydata, "")
 					break
 				}
@@ -181,7 +181,7 @@ public class ChannelProductsDataKeywords {
 			missingcategorydata.setProductcategories(unmatcheditems.getItems())
 			missingcategorydata.setProductcategories_errormessage(ProjectConstants.MESSAGEFOR_ITEMSARE_NOTMATCH)
 			for(int j=0; j<ProjectConstants.missingshopdatainfo.size(); j++){
-				if(ProjectConstants.missingshopdatainfo.get(j).getShopname().equalsIgnoreCase(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+				if(ProjectConstants.missingshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
 					ProjectConstants.missingshopdatainfo.get(j).setMissingCategoriesData(missingcategorydata, "")
 					break
 				}
@@ -195,7 +195,7 @@ public class ChannelProductsDataKeywords {
 			missingcategorydata.setProductcategories(unmatcheditems.getItems())
 			missingcategorydata.setProductcategories_errormessage(ProjectConstants.MESSAGEFOR_ITEMSARE_MORE)
 			for(int j=0; j<ProjectConstants.missingshopdatainfo.size(); j++){
-				if(ProjectConstants.missingshopdatainfo.get(j).getShopname().equalsIgnoreCase(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+				if(ProjectConstants.missingshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
 					ProjectConstants.missingshopdatainfo.get(j).setMissingCategoriesData(missingcategorydata, "")
 					break
 				}
@@ -209,7 +209,7 @@ public class ChannelProductsDataKeywords {
 			missingcategorydata.setProductcategories(unmatcheditems.getItems())
 			missingcategorydata.setProductcategories_errormessage(ProjectConstants.MESSAGEFOR_ITEMSARE_MISSING)
 			for(int j=0; j<ProjectConstants.missingshopdatainfo.size(); j++){
-				if(ProjectConstants.missingshopdatainfo.get(j).getShopname().equalsIgnoreCase(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+				if(ProjectConstants.missingshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
 					ProjectConstants.missingshopdatainfo.get(j).setMissingCategoriesData(missingcategorydata, "")
 					break
 				}
@@ -414,7 +414,7 @@ public class ChannelProductsDataKeywords {
 				missingcategorydata.setProductCategory(ProjectConstants.CURRENTVISITING_PRODUCTCATEGORY)
 				missingcategorydata.setProducts_errormessage(ProjectConstants.MESSAGEFOR_ITEMSARE_NOTMATCH)
 				for(int j=0; j<ProjectConstants.missingshopdatainfo.size(); j++){
-					if(ProjectConstants.missingshopdatainfo.get(j).getShopname().equalsIgnoreCase(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+					if(ProjectConstants.missingshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
 						ProjectConstants.missingshopdatainfo.get(j).setMissingCategoriesData(missingcategorydata, assettype)
 						break
 					}
@@ -447,7 +447,7 @@ public class ChannelProductsDataKeywords {
 			missingcategorydata.setProductCategory(ProjectConstants.CURRENTVISITING_PRODUCTCATEGORY)
 			missingcategorydata.setProducts_errormessage(ProjectConstants.MESSAGEFOR_ITEMSARE_MORE)
 			for(int j=0; j<ProjectConstants.missingshopdatainfo.size(); j++){
-				if(ProjectConstants.missingshopdatainfo.get(j).getShopname().equalsIgnoreCase(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+				if(ProjectConstants.missingshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
 					ProjectConstants.missingshopdatainfo.get(j).setMissingCategoriesData(missingcategorydata, assettype)
 				}
 				else{
@@ -476,18 +476,13 @@ public class ChannelProductsDataKeywords {
 			missingcategorydata.setProducts_errormessage(ProjectConstants.MESSAGEFOR_ITEMSARE_MISSING)
 			missingcategorydata.setProducts(products)
 			for(int j=0; j<ProjectConstants.missingshopdatainfo.size(); j++){
-				if(ProjectConstants.missingshopdatainfo.get(j).getShopname().equalsIgnoreCase(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+				if(ProjectConstants.missingshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
 					ProjectConstants.missingshopdatainfo.get(j).setMissingCategoriesData(missingcategorydata, assettype)
 					break
 				}
 				else{
 				}
 			}
-		}
-		else{
-
-			String message = "Main Category: "+ProjectConstants.CURRENTVISITING_MAINCATEGORY+"\nProduct Category: "+ProjectConstants.CURRENTVISITING_PRODUCTCATEGORY+"\n"+ProjectConstants.MESSAGEFOR_DISPLAYEDPRODUCTSARE_EQUAL
-			KeywordUtil.logInfo(message)
 		}
 		VisitedCategoryData visitedcategorydata = new VisitedCategoryData()
 		ProductCategoryWithProducts productcategorywithproducts = new ProductCategoryWithProducts()
@@ -502,7 +497,7 @@ public class ChannelProductsDataKeywords {
 		productcategorywithproducts.setShopproductsdata(shopproductsdata)
 		visitedcategorydata.setProductcategorywithproducts(productcategorywithproducts)
 		for(int i=0; i< ProjectConstants.visitedshopdatainfo.size(); i++){
-			if(ProjectConstants.visitedshopdatainfo.get(i).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)){
+			if(ProjectConstants.visitedshopdatainfo.get(i).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.visitedshopdatainfo.get(i).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
 				VisitedShopDataInfo visitedshopdata = ProjectConstants.visitedshopdatainfo.get(i)
 				ArrayList<VisitedCategoryData> visitedcategoriesdata = visitedshopdata.getVisitedcategoriesdata()
 				if(visitedcategoriesdata.size() != 0){

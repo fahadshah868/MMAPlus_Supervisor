@@ -25,7 +25,7 @@
    <testCaseLink>
       <guid>7933e75d-f9e3-41f0-b3bd-7552e33c4bad</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/SliderOptions/VisitSliderOptions</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -41,7 +41,7 @@
       <testCaseId>Test Cases/MerchandisersScore/VisitMerchandisersScore</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>ba9ff666-f15c-4316-8048-74a8a1b890fa</guid>
+      <guid>6a95d50c-1953-4d12-a46e-07e82bc63f29</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/WorkActions/VisitShopsWithHappyFlows</testCaseId>

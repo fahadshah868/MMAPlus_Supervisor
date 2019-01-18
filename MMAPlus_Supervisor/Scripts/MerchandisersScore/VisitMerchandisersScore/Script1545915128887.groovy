@@ -15,10 +15,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 Mobile.verifyElementVisible(findTestObject('MerchandisersScore/Validate_MerchandisersScoreScreen', [('package') : ProjectConstants.PACKAGENAME]), 
-    100)
+    200)
 
 Mobile.verifyElementVisible(findTestObject('MerchandisersScore/Validate_MerchandisersScoreScreen', [('package') : ProjectConstants.PACKAGENAME]), 
-    100)
+    200)
 
 Mobile.verifyElementText(findTestObject('MerchandisersScore/Validate_MerchandisersScoreScreen', [('package') : ProjectConstants.PACKAGENAME]), 
     'Scoring')

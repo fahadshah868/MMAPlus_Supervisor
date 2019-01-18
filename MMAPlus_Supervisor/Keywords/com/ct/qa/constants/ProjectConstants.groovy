@@ -116,7 +116,7 @@ public class ProjectConstants {
 	public static String SUPERVISOR_NAME = ""
 	public static String MERCHANDISER_NAME = ""
 	public static String WORKING_ACTION = ""
-	public static String SUB_WORKINGACTION = ""
+	public static String CURRENTVISITING_ROUTE = ""
 	public static String CURRENTVISITING_SHOPNAME = ""
 	public static String CURRENTVISITING_SHOPCHANNEL = ""
 	public static String CURRENTVISITING_MAINCATEGORY = ""

@@ -40,10 +40,4 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/MerchandisersScore/VisitMerchandisersScore</testCaseId>
    </testCaseLink>
-   <testCaseLink>
-      <guid>573b4469-a76f-466d-aee7-590b220d1e55</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/WorkActions/VisitShopsWithDataVerification</testCaseId>
-   </testCaseLink>
 </TestSuiteEntity>

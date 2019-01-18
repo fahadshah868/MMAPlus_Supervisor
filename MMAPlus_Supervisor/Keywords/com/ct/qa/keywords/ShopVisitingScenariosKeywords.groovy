@@ -50,6 +50,8 @@ public class ShopVisitingScenariosKeywords{
 				if(missingshopdatainfo.getMissingshopcategories() != null){
 					if(flag == false){
 						message = message+"\n\n"+
+								String.format("%-20s-30s%-20s%-30s","Supervisor Name:",missingshopdatainfo.getSupervisorname(),"Merchandiser Name",missingshopdatainfo.getMerchandisername())+"\n"+
+								String.format("%-20s-30s%-20s%-30s","Working Action:",missingshopdatainfo.getWorkingaction(),"Route",missingshopdatainfo.getRoute())+"\n\n"+
 								String.format("%-11s%-60s%-60s","Shop Name:",missingshopdatainfo.getShopname(),missingshopdatainfo.getShopchannel())+"\n\n"+
 								String.format("%-30s%-100s", "Visiting Scenarios:",missingshopdatainfo.getScenario())+
 								"\n\n" + String.format("%-30s", "Shop Categories:")
@@ -65,6 +67,8 @@ public class ShopVisitingScenariosKeywords{
 				if(missingshopdatainfo.getMissingshopactions() != null){
 					if(flag == false){
 						message = message+"\n\n"+
+								String.format("%-20s-30s%-20s%-30s","Supervisor Name:",missingshopdatainfo.getSupervisorname(),"Merchandiser Name",missingshopdatainfo.getMerchandisername())+"\n"+
+								String.format("%-20s-30s%-20s%-30s","Working Action:",missingshopdatainfo.getWorkingaction(),"Route",missingshopdatainfo.getRoute())+"\n\n"+
 								String.format("%-11s%-60s%-60s","Shop Name:",missingshopdatainfo.getShopname(),missingshopdatainfo.getShopchannel())+"\n\n"+
 								String.format("%-30s%-100s", "Visiting Scenarios:",missingshopdatainfo.getScenario())+
 								"\n\n" + String.format("%-30s", "Shop Actions:")
@@ -95,6 +99,8 @@ public class ShopVisitingScenariosKeywords{
 										if(missingchillerproductcategory.getProductcategories() != null){
 											if(flag == false){
 												message = message+"\n\n"+
+														String.format("%-20s-30s%-20s%-30s","Supervisor Name:",missingshopdatainfo.getSupervisorname(),"Merchandiser Name",missingshopdatainfo.getMerchandisername())+"\n"+
+														String.format("%-20s-30s%-20s%-30s","Working Action:",missingshopdatainfo.getWorkingaction(),"Route",missingshopdatainfo.getRoute())+"\n\n"+
 														String.format("%-11s%-60s%-60s","Shop Name:",missingshopdatainfo.getShopname(),missingshopdatainfo.getShopchannel())+"\n\n"+
 														String.format("%-30s%-100s", "Visiting Scenarios:",missingshopdatainfo.getScenario())+
 														"\n\nProduct Categories:\n\n" +
@@ -129,6 +135,8 @@ public class ShopVisitingScenariosKeywords{
 							if(missingcategorydata.getProductcategories() != null){
 								if(flag == false){
 									message = message+"\n\n"+
+											String.format("%-20s-30s%-20s%-30s","Supervisor Name:",missingshopdatainfo.getSupervisorname(),"Merchandiser Name",missingshopdatainfo.getMerchandisername())+"\n"+
+											String.format("%-20s-30s%-20s%-30s","Working Action:",missingshopdatainfo.getWorkingaction(),"Route",missingshopdatainfo.getRoute())+"\n\n"+
 											String.format("%-11s%-60s%-60s","Shop Name:",missingshopdatainfo.getShopname(),missingshopdatainfo.getShopchannel())+"\n\n"+
 											String.format("%-30s%-100s", "Visiting Scenarios:",missingshopdatainfo.getScenario())+
 											"\n\nProduct Categories:\n\n" +
@@ -154,6 +162,8 @@ public class ShopVisitingScenariosKeywords{
 							else if(missingcategorydata.getMissing_auditquestioncategories() != null){
 								if(flag == false){
 									message = message+"\n\n"+
+											String.format("%-20s-30s%-20s%-30s","Supervisor Name:",missingshopdatainfo.getSupervisorname(),"Merchandiser Name",missingshopdatainfo.getMerchandisername())+"\n"+
+											String.format("%-20s-30s%-20s%-30s","Working Action:",missingshopdatainfo.getWorkingaction(),"Route",missingshopdatainfo.getRoute())+"\n\n"+
 											String.format("%-11s%-60s%-60s","Shop Name:",missingshopdatainfo.getShopname(),missingshopdatainfo.getShopchannel())+"\n\n"+
 											String.format("%-30s%-100s", "Visiting Scenarios:",missingshopdatainfo.getScenario())+
 											"\n\nQuestion Categories:\n\n" +
@@ -192,6 +202,8 @@ public class ShopVisitingScenariosKeywords{
 										if(missingchillerproductcategory.getProductcategory() != null){
 											if(flag == false){
 												message = message+"\n\n"+
+														String.format("%-20s-30s%-20s%-30s","Supervisor Name:",missingshopdatainfo.getSupervisorname(),"Merchandiser Name",missingshopdatainfo.getMerchandisername())+"\n"+
+														String.format("%-20s-30s%-20s%-30s","Working Action:",missingshopdatainfo.getWorkingaction(),"Route",missingshopdatainfo.getRoute())+"\n\n"+
 														String.format("%-11s%-60s%-60s","Shop Name:",missingshopdatainfo.getShopname(),missingshopdatainfo.getShopchannel())+"\n\n"+
 														String.format("%-30s%-100s", "Visiting Scenarios:",missingshopdatainfo.getScenario())+
 														"\n\nProducts:\n\n" +
@@ -228,6 +240,8 @@ public class ShopVisitingScenariosKeywords{
 							if(missingcategorydata.getProducts() != null){
 								if(flag == false){
 									message = message+"\n\n"+
+											String.format("%-20s-30s%-20s%-30s","Supervisor Name:",missingshopdatainfo.getSupervisorname(),"Merchandiser Name",missingshopdatainfo.getMerchandisername())+"\n"+
+											String.format("%-20s-30s%-20s%-30s","Working Action:",missingshopdatainfo.getWorkingaction(),"Route",missingshopdatainfo.getRoute())+"\n\n"+
 											String.format("%-11s%-60s%-60s","Shop Name:",missingshopdatainfo.getShopname(),missingshopdatainfo.getShopchannel())+"\n\n"+
 											String.format("%-30s%-100s", "Visiting Scenarios:",missingshopdatainfo.getScenario())+
 											"\n\nProducts:\n\n" +
@@ -255,6 +269,8 @@ public class ShopVisitingScenariosKeywords{
 							else if(missingcategorydata.getMissing_auditquestions() != null){
 								if(flag == false){
 									message = message+"\n\n"+
+											String.format("%-20s-30s%-20s%-30s","Supervisor Name:",missingshopdatainfo.getSupervisorname(),"Merchandiser Name",missingshopdatainfo.getMerchandisername())+"\n"+
+											String.format("%-20s-30s%-20s%-30s","Working Action:",missingshopdatainfo.getWorkingaction(),"Route",missingshopdatainfo.getRoute())+"\n\n"+
 											String.format("%-11s%-60s%-60s","Shop Name:",missingshopdatainfo.getShopname(),missingshopdatainfo.getShopchannel())+"\n\n"+
 											String.format("%-30s%-100s", "Visiting Scenarios:",missingshopdatainfo.getScenario())+
 											"\n\nQuestions:\n\n" +
@@ -298,6 +314,8 @@ public class ShopVisitingScenariosKeywords{
 			VisitedShopDataInfo visitedshopdatainfo = ProjectConstants.visitedshopdatainfo.get(i)
 			if(visitedshopdatainfo != null){
 				message = message+"\n\n"+
+						String.format("%-20s-30s%-20s%-30s","Supervisor Name:",visitedshopdatainfo.getSupervisorname(),"Merchandiser Name",visitedshopdatainfo.getMerchandisername())+"\n"+
+						String.format("%-20s-30s%-20s%-30s","Working Action:",visitedshopdatainfo.getWorkingaction(),"Route",visitedshopdatainfo.getRoute())+"\n\n"+
 						String.format("%-11s%-60s%-60s","Shop Name:",visitedshopdatainfo.getShopname(),visitedshopdatainfo.getShopchannel())+"\n\n"+
 						String.format("%-40s%-100s","Shop Visiting Scenarios:",visitedshopdatainfo.getShop_scenario())+"\n\n"+
 						String.format("%-40s%-100s", "Other Categories Visiting Scenarios:",visitedshopdatainfo.getOthercategories_scenarios())
@@ -400,7 +418,7 @@ public class ShopVisitingScenariosKeywords{
 		UnmatchedItems unmatcheditems = CompareDataKeywords.compareShopActionsList()
 		if(unmatcheditems.getStatus() == 2){
 			for(int j=0; j<ProjectConstants.missingshopdatainfo.size(); j++){
-				if(ProjectConstants.missingshopdatainfo.get(j).getShopname().equalsIgnoreCase(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+				if(ProjectConstants.missingshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
 					ProjectConstants.missingshopdatainfo.get(j).setMissingshopactions(unmatcheditems.getItems())
 					ProjectConstants.missingshopdatainfo.get(j).setMissingshopactions_errormessage(ProjectConstants.MESSAGEFOR_ITEMSARE_NOTMATCH)
 					break
@@ -411,7 +429,7 @@ public class ShopVisitingScenariosKeywords{
 		}
 		else if(unmatcheditems.getStatus() == 1){
 			for(int j=0; j<ProjectConstants.missingshopdatainfo.size(); j++){
-				if(ProjectConstants.missingshopdatainfo.get(j).getShopname().equalsIgnoreCase(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+				if(ProjectConstants.missingshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
 					ProjectConstants.missingshopdatainfo.get(j).setMissingshopactions(unmatcheditems.getItems())
 					ProjectConstants.missingshopdatainfo.get(j).setMissingshopactions_errormessage(ProjectConstants.MESSAGEFOR_ITEMSARE_MORE)
 					break
@@ -422,7 +440,7 @@ public class ShopVisitingScenariosKeywords{
 		}
 		else if(unmatcheditems.getStatus() == -1){
 			for(int j=0; j<ProjectConstants.missingshopdatainfo.size(); j++){
-				if(ProjectConstants.missingshopdatainfo.get(j).getShopname().equalsIgnoreCase(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+				if(ProjectConstants.missingshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
 					ProjectConstants.missingshopdatainfo.get(j).setMissingshopactions(unmatcheditems.getItems())
 					ProjectConstants.missingshopdatainfo.get(j).setMissingshopactions_errormessage(ProjectConstants.MESSAGEFOR_ITEMSARE_MISSING)
 					break
@@ -435,16 +453,24 @@ public class ShopVisitingScenariosKeywords{
 		}
 	}
 	@Keyword
-	def static visitShopWith_HappyFlow(){
+	def visitShopWith_HappyFlow(){
 		int index = 0
 		int totalshops = ProjectConstants.DRIVER.findElementsByXPath("//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]/android.widget.ListView[1]/*").size()
 		int i = ProjectConstants.SHOP_ATTEMPT
-		for(i=1; i<= i;){
+		for(i; i<= ProjectConstants.SHOP_ATTEMPT; i++){
 			MissingShopDataInfo missingshopdatainfo = new MissingShopDataInfo()
 			VisitedShopDataInfo visitedshopdatainfo = new VisitedShopDataInfo()
 			MobileElement shop = ProjectConstants.DRIVER.findElementByXPath("//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]/android.widget.ListView[1]/android.widget.LinearLayout["+i+"]/android.widget.TextView[1]")
 			ProjectConstants.CURRENTVISITING_SHOPNAME = shop.getText()
+			missingshopdatainfo.setSupervisorname(ProjectConstants.SUPERVISOR_NAME)
+			missingshopdatainfo.setMerchandisername(ProjectConstants.MERCHANDISER_NAME)
+			missingshopdatainfo.setWorkingaction(ProjectConstants.WORKING_ACTION)
+			missingshopdatainfo.setRoute(ProjectConstants.CURRENTVISITING_ROUTE)
 			missingshopdatainfo.setShopname(shop.getText())
+			visitedshopdatainfo.setSupervisorname(ProjectConstants.SUPERVISOR_NAME)
+			visitedshopdatainfo.setMerchandisername(ProjectConstants.MERCHANDISER_NAME)
+			visitedshopdatainfo.setWorkingaction(ProjectConstants.WORKING_ACTION)
+			visitedshopdatainfo.setRoute(ProjectConstants.CURRENTVISITING_ROUTE)
 			visitedshopdatainfo.setShopname(shop.getText())
 			ProjectConstants.missingshopdatainfo.add(missingshopdatainfo)
 			ProjectConstants.visitedshopdatainfo.add(visitedshopdatainfo)
@@ -467,14 +493,14 @@ public class ShopVisitingScenariosKeywords{
 			Mobile.callTestCase(findTestCase("Test Cases/ShopOpen/VisitCategoryScenarios/VisitShopCategoriesWithDataVerification"), null)
 			Mobile.callTestCase(findTestCase("Test Cases/ShopOpen/SaveShop"), null)
 			for(int j=0; j<ProjectConstants.missingshopdatainfo.size(); j++){
-				if(ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+				if(ProjectConstants.missingshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
 					ProjectConstants.missingshopdatainfo.get(j).setShopchannel(ProjectConstants.CURRENTVISITING_SHOPCHANNEL)
 					ProjectConstants.missingshopdatainfo.get(j).setScenario("Data Verification")
 					break
 				}
 			}
 			for(int j=0; j<ProjectConstants.visitedshopdatainfo.size(); j++){
-				if(ProjectConstants.visitedshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+				if(ProjectConstants.visitedshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.visitedshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
 					ProjectConstants.visitedshopdatainfo.get(j).setShopchannel(ProjectConstants.CURRENTVISITING_SHOPCHANNEL)
 					ProjectConstants.visitedshopdatainfo.get(j).setShop_scenario("Shop Open")
 					String message = "(1) 'RTM visit frequency' with 'Once a week'\n"+
@@ -501,7 +527,15 @@ public class ShopVisitingScenariosKeywords{
 			VisitedShopDataInfo visitedshopdatainfo = new VisitedShopDataInfo()
 			MobileElement shop = ProjectConstants.DRIVER.findElementByXPath("//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]/android.widget.ListView[1]/android.widget.LinearLayout["+i+"]/android.widget.TextView[1]")
 			ProjectConstants.CURRENTVISITING_SHOPNAME = shop.getText()
+			missingshopdatainfo.setSupervisorname(ProjectConstants.SUPERVISOR_NAME)
+			missingshopdatainfo.setMerchandisername(ProjectConstants.MERCHANDISER_NAME)
+			missingshopdatainfo.setWorkingaction(ProjectConstants.WORKING_ACTION)
+			missingshopdatainfo.setRoute(ProjectConstants.CURRENTVISITING_ROUTE)
 			missingshopdatainfo.setShopname(shop.getText())
+			visitedshopdatainfo.setSupervisorname(ProjectConstants.SUPERVISOR_NAME)
+			visitedshopdatainfo.setMerchandisername(ProjectConstants.MERCHANDISER_NAME)
+			visitedshopdatainfo.setWorkingaction(ProjectConstants.WORKING_ACTION)
+			visitedshopdatainfo.setRoute(ProjectConstants.CURRENTVISITING_ROUTE)
 			visitedshopdatainfo.setShopname(shop.getText())
 			ProjectConstants.missingshopdatainfo.add(missingshopdatainfo)
 			ProjectConstants.visitedshopdatainfo.add(visitedshopdatainfo)
@@ -520,14 +554,14 @@ public class ShopVisitingScenariosKeywords{
 			Mobile.callTestCase(findTestCase("Test Cases/ShopOpen/VisitCategoryScenarios/VisitShopCategoriesWithDataVerification"), null)
 			Mobile.callTestCase(findTestCase("Test Cases/ShopOpen/SaveShop"), null)
 			for(int j=0; j<ProjectConstants.missingshopdatainfo.size(); j++){
-				if(ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+				if(ProjectConstants.missingshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
 					ProjectConstants.missingshopdatainfo.get(j).setShopchannel(ProjectConstants.CURRENTVISITING_SHOPCHANNEL)
 					ProjectConstants.missingshopdatainfo.get(j).setScenario("Data Verification")
 					break
 				}
 			}
 			for(int j=0; j<ProjectConstants.visitedshopdatainfo.size(); j++){
-				if(ProjectConstants.visitedshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+				if(ProjectConstants.visitedshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.visitedshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
 					ProjectConstants.visitedshopdatainfo.get(j).setShopchannel(ProjectConstants.CURRENTVISITING_SHOPCHANNEL)
 					ProjectConstants.visitedshopdatainfo.get(j).setShop_scenario("Shop Open")
 					String message = "(1) 'RTM visit frequency' with 'Once a week'\n"+
@@ -559,7 +593,15 @@ public class ShopVisitingScenariosKeywords{
 		//			}
 		//			else{
 		//				ProjectConstants.CURRENTVISITING_SHOPNAME = lastitemnameafterswipe
+		//				missingshopdatainfo.setSupervisorname(ProjectConstants.SUPERVISOR_NAME)
+		//				missingshopdatainfo.setMerchandisername(ProjectConstants.MERCHANDISER_NAME)
+		//				missingshopdatainfo.setWorkingaction(ProjectConstants.WORKING_ACTION)
+		//				missingshopdatainfo.setRoute(ProjectConstants.CURRENTVISITING_ROUTE)
 		//				missingshopdatainfo.setShopname(lastitemnameafterswipe)
+		//				visitedshopdatainfo.setSupervisorname(ProjectConstants.SUPERVISOR_NAME)
+		//				visitedshopdatainfo.setMerchandisername(ProjectConstants.MERCHANDISER_NAME)
+		//				visitedshopdatainfo.setWorkingaction(ProjectConstants.WORKING_ACTION)
+		//				visitedshopdatainfo.setRoute(ProjectConstants.CURRENTVISITING_ROUTE)
 		//				visitedshopdatainfo.setShopname(lastitemnameafterswipe)
 		//				ProjectConstants.missingshopdatainfo.add(missingshopdatainfo)
 		//				ProjectConstants.visitedshopdatainfo.add(visitedshopdatainfo)
@@ -578,14 +620,14 @@ public class ShopVisitingScenariosKeywords{
 		//				Mobile.callTestCase(findTestCase("ShopOpen/VisitCategoryScenarios/VisitShopCategoriesWithDataVerification"), null)
 		//				Mobile.callTestCase(findTestCase("Test Cases/ShopOpen/SaveShop"), null)
 		//				for(int j=0; j<ProjectConstants.missingshopdatainfo.size(); j++){
-		//					if(ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
-		//						ProjectConstants.missingshopdatainfo.get(j).setShopchannel(ProjectConstants.CURRENTVISITING_SHOPCHANNEL)
+		//					if(ProjectConstants.missingshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+		//					ProjectConstants.missingshopdatainfo.get(j).setShopchannel(ProjectConstants.CURRENTVISITING_SHOPCHANNEL)
 		//						ProjectConstants.missingshopdatainfo.get(j).setScenario("Data Verification")
 		//						break
 		//					}
 		//				}
 		//				for(int j=0; j<ProjectConstants.visitedshopdatainfo.size(); j++){
-		//					if(ProjectConstants.visitedshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+		//					if(ProjectConstants.visitedshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.visitedshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
 		//						ProjectConstants.visitedshopdatainfo.get(j).setShopchannel(ProjectConstants.CURRENTVISITING_SHOPCHANNEL)
 		//						ProjectConstants.visitedshopdatainfo.get(j).setShop_scenario("Shop Open")
 		//						String message = "(1) 'RTM visit frequency' with 'Once a week'\n"+
@@ -619,7 +661,15 @@ public class ShopVisitingScenariosKeywords{
 			VisitedShopDataInfo visitedshopdatainfo = new VisitedShopDataInfo()
 			MobileElement shop = ProjectConstants.DRIVER.findElementByXPath("//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]/android.widget.ListView[1]/android.widget.LinearLayout["+i+"]/android.widget.TextView[1]")
 			ProjectConstants.CURRENTVISITING_SHOPNAME = shop.getText()
+			missingshopdatainfo.setSupervisorname(ProjectConstants.SUPERVISOR_NAME)
+			missingshopdatainfo.setMerchandisername(ProjectConstants.MERCHANDISER_NAME)
+			missingshopdatainfo.setWorkingaction(ProjectConstants.WORKING_ACTION)
+			missingshopdatainfo.setRoute(ProjectConstants.CURRENTVISITING_ROUTE)
 			missingshopdatainfo.setShopname(shop.getText())
+			visitedshopdatainfo.setSupervisorname(ProjectConstants.SUPERVISOR_NAME)
+			visitedshopdatainfo.setMerchandisername(ProjectConstants.MERCHANDISER_NAME)
+			visitedshopdatainfo.setWorkingaction(ProjectConstants.WORKING_ACTION)
+			visitedshopdatainfo.setRoute(ProjectConstants.CURRENTVISITING_ROUTE)
 			visitedshopdatainfo.setShopname(shop.getText())
 			ProjectConstants.missingshopdatainfo.add(missingshopdatainfo)
 			ProjectConstants.visitedshopdatainfo.add(visitedshopdatainfo)
@@ -641,14 +691,14 @@ public class ShopVisitingScenariosKeywords{
 				Mobile.callTestCase(findTestCase("Test Cases/ShopOpen/SaveShop"), null)
 				Mobile.verifyElementExist(findTestObject("Object Repository/Validate_ShopListScreen" , [('package') : ProjectConstants.PACKAGENAME]), 0)
 				for(int j=0; j<ProjectConstants.missingshopdatainfo.size(); j++){
-					if(ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+					if(ProjectConstants.missingshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
 						ProjectConstants.missingshopdatainfo.get(j).setShopchannel(ProjectConstants.CURRENTVISITING_SHOPCHANNEL)
 						ProjectConstants.missingshopdatainfo.get(j).setScenario("Shop Level First Visit Before Overwriting")
 						break
 					}
 				}
 				for(int j=0; j<ProjectConstants.visitedshopdatainfo.size(); j++){
-					if(ProjectConstants.visitedshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+					if(ProjectConstants.visitedshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.visitedshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
 						ProjectConstants.visitedshopdatainfo.get(j).setShopchannel(ProjectConstants.CURRENTVISITING_SHOPCHANNEL)
 						ProjectConstants.visitedshopdatainfo.get(j).setShop_scenario("Shop Closed  ==>  Shop Open")
 						String message = "(1) 'RTM visit frequency' with 'Once a week'\n"+
@@ -670,14 +720,14 @@ public class ShopVisitingScenariosKeywords{
 				Mobile.callTestCase(findTestCase("Test Cases/ShopClosed/VisitShopClosed"), null)
 				Mobile.verifyElementExist(findTestObject("Object Repository/Validate_ShopListScreen" , [('package') : ProjectConstants.PACKAGENAME]), 0)
 				for(int j=0; j<ProjectConstants.missingshopdatainfo.size(); j++){
-					if(ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+					if(ProjectConstants.missingshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
 						ProjectConstants.missingshopdatainfo.get(j).setShopchannel(ProjectConstants.CURRENTVISITING_SHOPCHANNEL)
 						ProjectConstants.missingshopdatainfo.get(j).setScenario("Shop Level First Visit Before Overwriting")
 						break
 					}
 				}
 				for(int j=0; j<ProjectConstants.visitedshopdatainfo.size(); j++){
-					if(ProjectConstants.visitedshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+					if(ProjectConstants.visitedshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.visitedshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
 						ProjectConstants.visitedshopdatainfo.get(j).setShopchannel(ProjectConstants.CURRENTVISITING_SHOPCHANNEL)
 						ProjectConstants.visitedshopdatainfo.get(j).setShop_scenario("Shop Open  ==>  Shop Closed")
 						String message = "(1) 'RTM visit frequency' with 'Once a week'\n"+
@@ -699,14 +749,14 @@ public class ShopVisitingScenariosKeywords{
 				Mobile.callTestCase(findTestCase("Test Cases/ShopKeeperDidNotAllow/OverwriteShopKeeperDidNotAllow"), null)
 				Mobile.verifyElementExist(findTestObject("Object Repository/Validate_ShopListScreen" , [('package') : ProjectConstants.PACKAGENAME]), 0)
 				for(int j=0; j<ProjectConstants.missingshopdatainfo.size(); j++){
-					if(ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+					if(ProjectConstants.missingshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
 						ProjectConstants.missingshopdatainfo.get(j).setShopchannel(ProjectConstants.CURRENTVISITING_SHOPCHANNEL)
 						ProjectConstants.missingshopdatainfo.get(j).setScenario("Shop Level First Visit Before Overwriting")
 						break
 					}
 				}
 				for(int j=0; j<ProjectConstants.visitedshopdatainfo.size(); j++){
-					if(ProjectConstants.visitedshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+					if(ProjectConstants.visitedshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.visitedshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
 						ProjectConstants.visitedshopdatainfo.get(j).setShopchannel(ProjectConstants.CURRENTVISITING_SHOPCHANNEL)
 						ProjectConstants.visitedshopdatainfo.get(j).setShop_scenario("SKDNA with 'Expiry Issue' remark  ==>  SKDNA with 'Others' remark")
 						String message = "(1) 'RTM visit frequency' with 'Once a week'\n"+
@@ -728,14 +778,14 @@ public class ShopVisitingScenariosKeywords{
 				Mobile.callTestCase(findTestCase("Test Cases/ShopNotFound/VisitShopNotFound"), null)
 				Mobile.verifyElementExist(findTestObject("Object Repository/Validate_ShopListScreen" , [('package') : ProjectConstants.PACKAGENAME]), 0)
 				for(int j=0; j<ProjectConstants.missingshopdatainfo.size(); j++){
-					if(ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+					if(ProjectConstants.missingshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
 						ProjectConstants.missingshopdatainfo.get(j).setShopchannel(ProjectConstants.CURRENTVISITING_SHOPCHANNEL)
 						ProjectConstants.missingshopdatainfo.get(j).setScenario("Shop Level First Visit Before Overwriting")
 						break
 					}
 				}
 				for(int j=0; j<ProjectConstants.visitedshopdatainfo.size(); j++){
-					if(ProjectConstants.visitedshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+					if(ProjectConstants.visitedshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.visitedshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
 						ProjectConstants.visitedshopdatainfo.get(j).setShopchannel(ProjectConstants.CURRENTVISITING_SHOPCHANNEL)
 						ProjectConstants.visitedshopdatainfo.get(j).setShop_scenario("Shop Permanently Closed  ==>  Shop Not Found")
 						String message = "(1) 'RTM visit frequency' with 'Once a week'\n"+
@@ -757,14 +807,14 @@ public class ShopVisitingScenariosKeywords{
 				Mobile.callTestCase(findTestCase("Test Cases/ShopPermanentlyClosed/VisitShopPermanentlyClosed"), null)
 				Mobile.verifyElementExist(findTestObject("Object Repository/Validate_ShopListScreen" , [('package') : ProjectConstants.PACKAGENAME]), 0)
 				for(int j=0; j<ProjectConstants.missingshopdatainfo.size(); j++){
-					if(ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+					if(ProjectConstants.missingshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
 						ProjectConstants.missingshopdatainfo.get(j).setShopchannel(ProjectConstants.CURRENTVISITING_SHOPCHANNEL)
 						ProjectConstants.missingshopdatainfo.get(j).setScenario("Shop Level First Visit Before Overwriting")
 						break
 					}
 				}
 				for(int j=0; j<ProjectConstants.visitedshopdatainfo.size(); j++){
-					if(ProjectConstants.visitedshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+					if(ProjectConstants.visitedshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.visitedshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
 						ProjectConstants.visitedshopdatainfo.get(j).setShopchannel(ProjectConstants.CURRENTVISITING_SHOPCHANNEL)
 						ProjectConstants.visitedshopdatainfo.get(j).setShop_scenario("Shop Closed  ==>  Shop Permanently Closed")
 						String message = "(1) 'RTM visit frequency' with 'Once a week'\n"+
@@ -790,7 +840,7 @@ public class ShopVisitingScenariosKeywords{
 				Mobile.callTestCase(findTestCase("Test Cases/ShopOpen/SaveShop"), null)
 				Mobile.verifyElementExist(findTestObject("Object Repository/Validate_ShopListScreen" , [('package') : ProjectConstants.PACKAGENAME]), 0)
 				for(int j=0; j<ProjectConstants.missingshopdatainfo.size(); j++){
-					if(ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+					if(ProjectConstants.missingshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
 						ProjectConstants.missingshopdatainfo.get(j).setShopchannel(ProjectConstants.CURRENTVISITING_SHOPCHANNEL)
 						String message = "Shop Level First Visit Before Overwriting"
 						ProjectConstants.missingshopdatainfo.get(j).setScenario(message)
@@ -798,7 +848,7 @@ public class ShopVisitingScenariosKeywords{
 					}
 				}
 				for(int j=0; j<ProjectConstants.visitedshopdatainfo.size(); j++){
-					if(ProjectConstants.visitedshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+					if(ProjectConstants.visitedshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.visitedshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
 						ProjectConstants.visitedshopdatainfo.get(j).setShopchannel(ProjectConstants.CURRENTVISITING_SHOPCHANNEL)
 						ProjectConstants.visitedshopdatainfo.get(j).setShop_scenario("Shop Open  ==>  Shop Open")
 						String message = "(1) 'RTM visit frequency' with 'Once a week'\n"+
@@ -830,7 +880,15 @@ public class ShopVisitingScenariosKeywords{
 			VisitedShopDataInfo visitedshopdatainfo = new VisitedShopDataInfo()
 			MobileElement shop = ProjectConstants.DRIVER.findElementByXPath("//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]/android.widget.ListView[1]/android.widget.LinearLayout["+i+"]/android.widget.TextView[1]")
 			ProjectConstants.CURRENTVISITING_SHOPNAME = shop.getText()
+			missingshopdatainfo.setSupervisorname(ProjectConstants.SUPERVISOR_NAME)
+			missingshopdatainfo.setMerchandisername(ProjectConstants.MERCHANDISER_NAME)
+			missingshopdatainfo.setWorkingaction(ProjectConstants.WORKING_ACTION)
+			missingshopdatainfo.setRoute(ProjectConstants.CURRENTVISITING_ROUTE)
 			missingshopdatainfo.setShopname(shop.getText())
+			visitedshopdatainfo.setSupervisorname(ProjectConstants.SUPERVISOR_NAME)
+			visitedshopdatainfo.setMerchandisername(ProjectConstants.MERCHANDISER_NAME)
+			visitedshopdatainfo.setWorkingaction(ProjectConstants.WORKING_ACTION)
+			visitedshopdatainfo.setRoute(ProjectConstants.CURRENTVISITING_ROUTE)
 			visitedshopdatainfo.setShopname(shop.getText())
 			ProjectConstants.missingshopdatainfo.add(missingshopdatainfo)
 			ProjectConstants.visitedshopdatainfo.add(visitedshopdatainfo)
@@ -855,14 +913,14 @@ public class ShopVisitingScenariosKeywords{
 				Mobile.callTestCase(findTestCase("Test Cases/ShopOpen/SaveShop"), null)
 				Mobile.verifyElementExist(findTestObject("Object Repository/Validate_ShopListScreen" , [('package') : ProjectConstants.PACKAGENAME]), 0)
 				for(int j=0; j<ProjectConstants.missingshopdatainfo.size(); j++){
-					if(ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+					if(ProjectConstants.missingshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
 						ProjectConstants.missingshopdatainfo.get(j).setShopchannel(ProjectConstants.CURRENTVISITING_SHOPCHANNEL)
 						ProjectConstants.missingshopdatainfo.get(j).setScenario("Shop Level First Visit Before Overwriting")
 						break
 					}
 				}
 				for(int j=0; j<ProjectConstants.visitedshopdatainfo.size(); j++){
-					if(ProjectConstants.visitedshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+					if(ProjectConstants.visitedshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.visitedshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
 						ProjectConstants.visitedshopdatainfo.get(j).setShopchannel(ProjectConstants.CURRENTVISITING_SHOPCHANNEL)
 						ProjectConstants.visitedshopdatainfo.get(j).setShop_scenario("Shop Closed  ==>  Shop Open")
 						String message = "(1) 'RTM visit frequency' with 'Once a week'\n"+
@@ -890,14 +948,14 @@ public class ShopVisitingScenariosKeywords{
 				Mobile.callTestCase(findTestCase("Test Cases/ShopClosed/VisitShopClosed"), null)
 				Mobile.verifyElementExist(findTestObject("Object Repository/Validate_ShopListScreen" , [('package') : ProjectConstants.PACKAGENAME]), 0)
 				for(int j=0; j<ProjectConstants.missingshopdatainfo.size(); j++){
-					if(ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+					if(ProjectConstants.missingshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
 						ProjectConstants.missingshopdatainfo.get(j).setShopchannel(ProjectConstants.CURRENTVISITING_SHOPCHANNEL)
 						ProjectConstants.missingshopdatainfo.get(j).setScenario("Shop Overwrite Scenarios")
 						break
 					}
 				}
 				for(int j=0; j<ProjectConstants.visitedshopdatainfo.size(); j++){
-					if(ProjectConstants.visitedshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+					if(ProjectConstants.visitedshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.visitedshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
 						ProjectConstants.visitedshopdatainfo.get(j).setShopchannel(ProjectConstants.CURRENTVISITING_SHOPCHANNEL)
 						ProjectConstants.visitedshopdatainfo.get(j).setShop_scenario("Shop Open  ==>  Shop Closed")
 						String message = "(1) 'RTM visit frequency' with 'Once a week'\n"+
@@ -922,14 +980,14 @@ public class ShopVisitingScenariosKeywords{
 				Mobile.callTestCase(findTestCase("Test Cases/ShopKeeperDidNotAllow/OverwriteShopKeeperDidNotAllow"), null)
 				Mobile.verifyElementExist(findTestObject("Object Repository/Validate_ShopListScreen" , [('package') : ProjectConstants.PACKAGENAME]), 0)
 				for(int j=0; j<ProjectConstants.missingshopdatainfo.size(); j++){
-					if(ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+					if(ProjectConstants.missingshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
 						ProjectConstants.missingshopdatainfo.get(j).setShopchannel(ProjectConstants.CURRENTVISITING_SHOPCHANNEL)
 						ProjectConstants.missingshopdatainfo.get(j).setScenario("Shop Overwrite Scenarios")
 						break
 					}
 				}
 				for(int j=0; j<ProjectConstants.visitedshopdatainfo.size(); j++){
-					if(ProjectConstants.visitedshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+					if(ProjectConstants.visitedshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.visitedshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
 						ProjectConstants.visitedshopdatainfo.get(j).setShopchannel(ProjectConstants.CURRENTVISITING_SHOPCHANNEL)
 						ProjectConstants.visitedshopdatainfo.get(j).setShop_scenario("SKDNA with 'Expiry Issue' remark  ==>  SKDNA with 'Others' remark")
 						String message = "(1) 'RTM visit frequency' with 'Once a week'\n"+
@@ -954,14 +1012,14 @@ public class ShopVisitingScenariosKeywords{
 				Mobile.callTestCase(findTestCase("Test Cases/ShopNotFound/VisitShopNotFound"), null)
 				Mobile.verifyElementExist(findTestObject("Object Repository/Validate_ShopListScreen" , [('package') : ProjectConstants.PACKAGENAME]), 0)
 				for(int j=0; j<ProjectConstants.missingshopdatainfo.size(); j++){
-					if(ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+					if(ProjectConstants.missingshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
 						ProjectConstants.missingshopdatainfo.get(j).setShopchannel(ProjectConstants.CURRENTVISITING_SHOPCHANNEL)
 						ProjectConstants.missingshopdatainfo.get(j).setScenario("Shop Overwrite Scenarios")
 						break
 					}
 				}
 				for(int j=0; j<ProjectConstants.visitedshopdatainfo.size(); j++){
-					if(ProjectConstants.visitedshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+					if(ProjectConstants.visitedshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.visitedshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
 						ProjectConstants.visitedshopdatainfo.get(j).setShopchannel(ProjectConstants.CURRENTVISITING_SHOPCHANNEL)
 						ProjectConstants.visitedshopdatainfo.get(j).setShop_scenario("Shop Permanently Closed  ==>  Shop Not Found")
 						String message = "(1) 'RTM visit frequency' with 'Once a week'\n"+
@@ -986,14 +1044,14 @@ public class ShopVisitingScenariosKeywords{
 				Mobile.callTestCase(findTestCase("Test Cases/ShopPermanentlyClosed/VisitShopPermanentlyClosed"), null)
 				Mobile.verifyElementExist(findTestObject("Object Repository/Validate_ShopListScreen" , [('package') : ProjectConstants.PACKAGENAME]), 0)
 				for(int j=0; j<ProjectConstants.missingshopdatainfo.size(); j++){
-					if(ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+					if(ProjectConstants.missingshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
 						ProjectConstants.missingshopdatainfo.get(j).setShopchannel(ProjectConstants.CURRENTVISITING_SHOPCHANNEL)
 						ProjectConstants.missingshopdatainfo.get(j).setScenario("Shop Overwrite Scenario")
 						break
 					}
 				}
 				for(int j=0; j<ProjectConstants.visitedshopdatainfo.size(); j++){
-					if(ProjectConstants.visitedshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+					if(ProjectConstants.visitedshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.visitedshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
 						ProjectConstants.visitedshopdatainfo.get(j).setShopchannel(ProjectConstants.CURRENTVISITING_SHOPCHANNEL)
 						ProjectConstants.visitedshopdatainfo.get(j).setShop_scenario("Shop Closed  ==>  Shop Permanently Closed")
 						String message = "(1) 'RTM visit frequency' with 'Once a week'\n"+
@@ -1025,7 +1083,7 @@ public class ShopVisitingScenariosKeywords{
 				Mobile.callTestCase(findTestCase("Test Cases/ShopOpen/SaveShop"), null)
 				Mobile.verifyElementExist(findTestObject("Object Repository/Validate_ShopListScreen" , [('package') : ProjectConstants.PACKAGENAME]), 0)
 				for(int j=0; j<ProjectConstants.missingshopdatainfo.size(); j++){
-					if(ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+					if(ProjectConstants.missingshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
 						ProjectConstants.missingshopdatainfo.get(j).setShopchannel(ProjectConstants.CURRENTVISITING_SHOPCHANNEL)
 						String message = "Shop Overwrite Scenarios"
 						ProjectConstants.missingshopdatainfo.get(j).setScenario(message)
@@ -1033,7 +1091,7 @@ public class ShopVisitingScenariosKeywords{
 					}
 				}
 				for(int j=0; j<ProjectConstants.visitedshopdatainfo.size(); j++){
-					if(ProjectConstants.visitedshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+					if(ProjectConstants.visitedshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.visitedshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
 						ProjectConstants.visitedshopdatainfo.get(j).setShopchannel(ProjectConstants.CURRENTVISITING_SHOPCHANNEL)
 						ProjectConstants.visitedshopdatainfo.get(j).setShop_scenario("Shop Open  ==>  Shop Open")
 						String message = "(1) 'RTM visit frequency' with 'Once a week'\n"+
@@ -1071,7 +1129,15 @@ public class ShopVisitingScenariosKeywords{
 			VisitedShopDataInfo visitedshopdatainfo = new VisitedShopDataInfo()
 			MobileElement shop = ProjectConstants.DRIVER.findElementByXPath("//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]/android.widget.ListView[1]/android.widget.LinearLayout["+_shop+"]/android.widget.TextView[1]")
 			ProjectConstants.CURRENTVISITING_SHOPNAME = shop.getText()
+			missingshopdatainfo.setSupervisorname(ProjectConstants.SUPERVISOR_NAME)
+			missingshopdatainfo.setMerchandisername(ProjectConstants.MERCHANDISER_NAME)
+			missingshopdatainfo.setWorkingaction(ProjectConstants.WORKING_ACTION)
+			missingshopdatainfo.setRoute(ProjectConstants.CURRENTVISITING_ROUTE)
 			missingshopdatainfo.setShopname(shop.getText())
+			visitedshopdatainfo.setSupervisorname(ProjectConstants.SUPERVISOR_NAME)
+			visitedshopdatainfo.setMerchandisername(ProjectConstants.MERCHANDISER_NAME)
+			visitedshopdatainfo.setWorkingaction(ProjectConstants.WORKING_ACTION)
+			visitedshopdatainfo.setRoute(ProjectConstants.CURRENTVISITING_ROUTE)
 			visitedshopdatainfo.setShopname(shop.getText())
 			ProjectConstants.missingshopdatainfo.add(missingshopdatainfo)
 			ProjectConstants.visitedshopdatainfo.add(visitedshopdatainfo)
@@ -1091,14 +1157,14 @@ public class ShopVisitingScenariosKeywords{
 			Mobile.callTestCase(findTestCase("ShopOpen/VisitCategoryScenarios/VisitShopCategoriesWithOverwritingScenarios"), null)
 			Mobile.callTestCase(findTestCase("Test Cases/ShopOpen/SaveShop"), null)
 			for(int j=0; j<ProjectConstants.missingshopdatainfo.size(); j++){
-				if(ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+				if(ProjectConstants.missingshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
 					ProjectConstants.missingshopdatainfo.get(j).setShopchannel(ProjectConstants.CURRENTVISITING_SHOPCHANNEL)
 					ProjectConstants.missingshopdatainfo.get(j).setScenario("Data Verification")
 					break
 				}
 			}
 			for(int j=0; j<ProjectConstants.visitedshopdatainfo.size(); j++){
-				if(ProjectConstants.visitedshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+				if(ProjectConstants.visitedshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.visitedshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
 					ProjectConstants.visitedshopdatainfo.get(j).setShopchannel(ProjectConstants.CURRENTVISITING_SHOPCHANNEL)
 					ProjectConstants.visitedshopdatainfo.get(j).setShop_scenario("Shop Open")
 					String message = "(1) 'RTM visit frequency' with 'Once a week'\n"+
@@ -1131,7 +1197,15 @@ public class ShopVisitingScenariosKeywords{
 		//			else{
 		//				_shop = _shop + 1
 		//				ProjectConstants.CURRENTVISITING_SHOPNAME = lastitemnameafterswipe
+		//				missingshopdatainfo.setSupervisorname(ProjectConstants.SUPERVISOR_NAME)
+		//				missingshopdatainfo.setMerchandisername(ProjectConstants.MERCHANDISER_NAME)
+		//				missingshopdatainfo.setWorkingaction(ProjectConstants.WORKING_ACTION)
+		//				missingshopdatainfo.setRoute(ProjectConstants.CURRENTVISITING_ROUTE)
 		//				missingshopdatainfo.setShopname(lastitemnameafterswipe)
+		//				visitedshopdatainfo.setSupervisorname(ProjectConstants.SUPERVISOR_NAME)
+		//				visitedshopdatainfo.setMerchandisername(ProjectConstants.MERCHANDISER_NAME)
+		//				visitedshopdatainfo.setWorkingaction(ProjectConstants.WORKING_ACTION)
+		//				visitedshopdatainfo.setRoute(ProjectConstants.CURRENTVISITING_ROUTE)
 		//				visitedshopdatainfo.setShopname(lastitemnameafterswipe)
 		//				ProjectConstants.missingshopdatainfo.add(missingshopdatainfo)
 		//				ProjectConstants.visitedshopdatainfo.add(visitedshopdatainfo)
@@ -1151,14 +1225,14 @@ public class ShopVisitingScenariosKeywords{
 		//				Mobile.callTestCase(findTestCase("ShopOpen/VisitCategoryScenarios/VisitShopCategoriesWithOverwritingScenarios"), null)
 		//				Mobile.callTestCase(findTestCase("Test Cases/ShopOpen/SaveShop"), null)
 		//				for(int j=0; j<ProjectConstants.missingshopdatainfo.size(); j++){
-		//					if(ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+		//					if(ProjectConstants.missingshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
 		//						ProjectConstants.missingshopdatainfo.get(j).setShopchannel(ProjectConstants.CURRENTVISITING_SHOPCHANNEL)
 		//						ProjectConstants.missingshopdatainfo.get(j).setScenario("Data Verification")
 		//						break
 		//					}
 		//				}
 		//				for(int j=0; j<ProjectConstants.visitedshopdatainfo.size(); j++){
-		//					if(ProjectConstants.visitedshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+		//					if(ProjectConstants.visitedshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.visitedshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
 		//						ProjectConstants.visitedshopdatainfo.get(j).setShopchannel(ProjectConstants.CURRENTVISITING_SHOPCHANNEL)
 		//						ProjectConstants.visitedshopdatainfo.get(j).setShop_scenario("Shop Open")
 		//						String message = "'Scenario given bellow' for chiller utilization\n"+
@@ -1189,7 +1263,15 @@ public class ShopVisitingScenariosKeywords{
 			VisitedShopDataInfo visitedshopdatainfo = new VisitedShopDataInfo()
 			MobileElement shop = ProjectConstants.DRIVER.findElementByXPath("//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]/android.widget.ListView[1]/android.widget.LinearLayout["+_shop+"]/android.widget.TextView[1]")
 			ProjectConstants.CURRENTVISITING_SHOPNAME = shop.getText()
+			missingshopdatainfo.setSupervisorname(ProjectConstants.SUPERVISOR_NAME)
+			missingshopdatainfo.setMerchandisername(ProjectConstants.MERCHANDISER_NAME)
+			missingshopdatainfo.setWorkingaction(ProjectConstants.WORKING_ACTION)
+			missingshopdatainfo.setRoute(ProjectConstants.CURRENTVISITING_ROUTE)
 			missingshopdatainfo.setShopname(shop.getText())
+			visitedshopdatainfo.setSupervisorname(ProjectConstants.SUPERVISOR_NAME)
+			visitedshopdatainfo.setMerchandisername(ProjectConstants.MERCHANDISER_NAME)
+			visitedshopdatainfo.setWorkingaction(ProjectConstants.WORKING_ACTION)
+			visitedshopdatainfo.setRoute(ProjectConstants.CURRENTVISITING_ROUTE)
 			visitedshopdatainfo.setShopname(shop.getText())
 			ProjectConstants.missingshopdatainfo.add(missingshopdatainfo)
 			ProjectConstants.visitedshopdatainfo.add(visitedshopdatainfo)
@@ -1211,14 +1293,14 @@ public class ShopVisitingScenariosKeywords{
 			Mobile.callTestCase(findTestCase("ShopOpen/VisitCategoryScenariosWithOverwritePopUp/VisitShopCategoriesWithOverwritingScenarios"), null)
 			Mobile.callTestCase(findTestCase("Test Cases/ShopOpen/SaveShop"), null)
 			for(int j=0; j<ProjectConstants.missingshopdatainfo.size(); j++){
-				if(ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+				if(ProjectConstants.missingshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
 					ProjectConstants.missingshopdatainfo.get(j).setShopchannel(ProjectConstants.CURRENTVISITING_SHOPCHANNEL)
 					ProjectConstants.missingshopdatainfo.get(j).setScenario("Data Verification")
 					break
 				}
 			}
 			for(int j=0; j<ProjectConstants.visitedshopdatainfo.size(); j++){
-				if(ProjectConstants.visitedshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+				if(ProjectConstants.visitedshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.visitedshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
 					ProjectConstants.visitedshopdatainfo.get(j).setShopchannel(ProjectConstants.CURRENTVISITING_SHOPCHANNEL)
 					ProjectConstants.visitedshopdatainfo.get(j).setShop_scenario("Shop Open")
 					String message = "(1) 'RTM visit frequency' with 'Once a week'\n"+
@@ -1251,7 +1333,15 @@ public class ShopVisitingScenariosKeywords{
 		//			else{
 		//				_shop = _shop + 1
 		//				ProjectConstants.CURRENTVISITING_SHOPNAME = lastitemnameafterswipe
+		//				missingshopdatainfo.setSupervisorname(ProjectConstants.SUPERVISOR_NAME)
+		//				missingshopdatainfo.setMerchandisername(ProjectConstants.MERCHANDISER_NAME)
+		//				missingshopdatainfo.setWorkingaction(ProjectConstants.WORKING_ACTION)
+		//				missingshopdatainfo.setRoute(ProjectConstants.CURRENTVISITING_ROUTE)
 		//				missingshopdatainfo.setShopname(lastitemnameafterswipe)
+		//				visitedshopdatainfo.setSupervisorname(ProjectConstants.SUPERVISOR_NAME)
+		//				visitedshopdatainfo.setMerchandisername(ProjectConstants.MERCHANDISER_NAME)
+		//				visitedshopdatainfo.setWorkingaction(ProjectConstants.WORKING_ACTION)
+		//				visitedshopdatainfo.setRoute(ProjectConstants.CURRENTVISITING_ROUTE)
 		//				visitedshopdatainfo.setShopname(lastitemnameafterswipe)
 		//				ProjectConstants.missingshopdatainfo.add(missingshopdatainfo)
 		//				ProjectConstants.visitedshopdatainfo.add(visitedshopdatainfo)
@@ -1273,14 +1363,14 @@ public class ShopVisitingScenariosKeywords{
 		//				Mobile.callTestCase(findTestCase("ShopOpen/VisitCategoryScenariosWithOverwritePopUp/VisitShopCategoriesWithOverwritingScenarios"), null)
 		//				Mobile.callTestCase(findTestCase("Test Cases/ShopOpen/SaveShop"), null)
 		//				for(int j=0; j<ProjectConstants.missingshopdatainfo.size(); j++){
-		//					if(ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+		//					if(ProjectConstants.missingshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
 		//						ProjectConstants.missingshopdatainfo.get(j).setShopchannel(ProjectConstants.CURRENTVISITING_SHOPCHANNEL)
 		//						ProjectConstants.missingshopdatainfo.get(j).setScenario("Data Verification")
 		//						break
 		//					}
 		//				}
 		//				for(int j=0; j<ProjectConstants.visitedshopdatainfo.size(); j++){
-		//					if(ProjectConstants.visitedshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+		//					if(ProjectConstants.visitedshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.visitedshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
 		//						ProjectConstants.visitedshopdatainfo.get(j).setShopchannel(ProjectConstants.CURRENTVISITING_SHOPCHANNEL)
 		//						ProjectConstants.visitedshopdatainfo.get(j).setShop_scenario("Shop Open")
 		//						String message = "'Scenario given bellow' for chiller utilization\n"+

@@ -46,5 +46,5 @@ public class ScoreCard {
 	}
 	public void setMissingremarks_errormessage(String missingremarks_errormessage) {
 		this.missingremarks_errormessage = missingremarks_errormessage;
-	}	
+	}
 }

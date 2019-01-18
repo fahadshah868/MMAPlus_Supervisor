@@ -60,7 +60,7 @@ public class ChillerProductsDataKeywords {
 			taggedchillerremark.setMissingchillerproductscategories(missingchillercategory)
 			missingcategorydata.setTaggedchillersremarks(taggedchillerremark)
 			for(int j=0; j<ProjectConstants.missingshopdatainfo.size(); j++){
-				if(ProjectConstants.missingshopdatainfo.get(j).getShopname().equalsIgnoreCase(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+				if(ProjectConstants.missingshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
 					ProjectConstants.missingshopdatainfo.get(j).setMissingCategoriesData(missingcategorydata, "")
 					break
 				}
@@ -80,7 +80,7 @@ public class ChillerProductsDataKeywords {
 			taggedchillerremark.setMissingchillerproductscategories(missingchillercategory)
 			missingcategorydata.setTaggedchillersremarks(taggedchillerremark)
 			for(int j=0; j<ProjectConstants.missingshopdatainfo.size(); j++){
-				if(ProjectConstants.missingshopdatainfo.get(j).getShopname().equalsIgnoreCase(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+				if(ProjectConstants.missingshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
 					ProjectConstants.missingshopdatainfo.get(j).setMissingCategoriesData(missingcategorydata, "")
 					break
 				}
@@ -100,7 +100,7 @@ public class ChillerProductsDataKeywords {
 			taggedchillerremark.setMissingchillerproductscategories(missingchillercategory)
 			missingcategorydata.setTaggedchillersremarks(taggedchillerremark)
 			for(int j=0; j<ProjectConstants.missingshopdatainfo.size(); j++){
-				if(ProjectConstants.missingshopdatainfo.get(j).getShopname().equalsIgnoreCase(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+				if(ProjectConstants.missingshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
 					ProjectConstants.missingshopdatainfo.get(j).setMissingCategoriesData(missingcategorydata, "")
 					break
 				}
@@ -140,7 +140,7 @@ public class ChillerProductsDataKeywords {
 			taggedchillerremark.setMissingchillerproductscategories(missingchillercategory)
 			missingcategorydata.setTaggedchillersremarks(taggedchillerremark)
 			for(int j=0; j<ProjectConstants.missingshopdatainfo.size(); j++){
-				if(ProjectConstants.missingshopdatainfo.get(j).getShopname().equalsIgnoreCase(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+				if(ProjectConstants.missingshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
 					ProjectConstants.missingshopdatainfo.get(j).setMissingCategoriesData(missingcategorydata, "")
 					break
 				}
@@ -160,7 +160,7 @@ public class ChillerProductsDataKeywords {
 			taggedchillerremark.setMissingchillerproductscategories(missingchillercategory)
 			missingcategorydata.setTaggedchillersremarks(taggedchillerremark)
 			for(int j=0; j<ProjectConstants.missingshopdatainfo.size(); j++){
-				if(ProjectConstants.missingshopdatainfo.get(j).getShopname().equalsIgnoreCase(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+				if(ProjectConstants.missingshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
 					ProjectConstants.missingshopdatainfo.get(j).setMissingCategoriesData(missingcategorydata, "")
 					break
 				}
@@ -180,7 +180,7 @@ public class ChillerProductsDataKeywords {
 			taggedchillerremark.setMissingchillerproductscategories(missingchillercategory)
 			missingcategorydata.setTaggedchillersremarks(taggedchillerremark)
 			for(int j=0; j<ProjectConstants.missingshopdatainfo.size(); j++){
-				if(ProjectConstants.missingshopdatainfo.get(j).getShopname().equalsIgnoreCase(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+				if(ProjectConstants.missingshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
 					ProjectConstants.missingshopdatainfo.get(j).setMissingCategoriesData(missingcategorydata, "")
 					break
 				}
@@ -415,7 +415,7 @@ public class ChillerProductsDataKeywords {
 				taggedchillerremark.setMissingchillerproductscategories(missingchillerproductscategory)
 				missingcategorydata.setTaggedchillersremarks(taggedchillerremark)
 				for(int j=0; j<ProjectConstants.missingshopdatainfo.size(); j++){
-					if(ProjectConstants.missingshopdatainfo.get(j).getShopname().equalsIgnoreCase(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+					if(ProjectConstants.missingshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
 						ProjectConstants.missingshopdatainfo.get(j).setMissingCategoriesData(missingcategorydata, assettype)
 						break
 					}
@@ -452,7 +452,7 @@ public class ChillerProductsDataKeywords {
 			taggedchillerremark.setMissingchillerproductscategories(missingchillerproductscategory)
 			missingcategorydata.setTaggedchillersremarks(taggedchillerremark)
 			for(int j=0; j<ProjectConstants.missingshopdatainfo.size(); j++){
-				if(ProjectConstants.missingshopdatainfo.get(j).getShopname().equalsIgnoreCase(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+				if(ProjectConstants.missingshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
 					ProjectConstants.missingshopdatainfo.get(j).setMissingCategoriesData(missingcategorydata, assettype)
 					break
 				}
@@ -488,7 +488,7 @@ public class ChillerProductsDataKeywords {
 			taggedchillerremark.setMissingchillerproductscategories(missingchillerproductscategory)
 			missingcategorydata.setTaggedchillersremarks(taggedchillerremark)
 			for(int j=0; j<ProjectConstants.missingshopdatainfo.size(); j++){
-				if(ProjectConstants.missingshopdatainfo.get(j).getShopname().equalsIgnoreCase(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+				if(ProjectConstants.missingshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
 					ProjectConstants.missingshopdatainfo.get(j).setMissingCategoriesData(missingcategorydata, assettype)
 					break
 				}
@@ -517,7 +517,7 @@ public class ChillerProductsDataKeywords {
 		taggedchillerremarks.setVisitedchillerproductscategories(visitedchillerproductscategory)
 		visitedcategorydata.setTaggedchillersremark(taggedchillerremarks)
 		for(int i=0; i< ProjectConstants.visitedshopdatainfo.size(); i++){
-			if(ProjectConstants.visitedshopdatainfo.get(i).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)){
+			if(ProjectConstants.visitedshopdatainfo.get(i).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.visitedshopdatainfo.get(i).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
 				VisitedShopDataInfo visitedshopdata = ProjectConstants.visitedshopdatainfo.get(i)
 				ArrayList<VisitedCategoryData> visitedcategoriesdata = visitedshopdata.getVisitedcategoriesdata()
 				if(visitedcategoriesdata.size() != 0){
@@ -796,7 +796,7 @@ public class ChillerProductsDataKeywords {
 				taggedchillerremark.setMissingchillerproductscategories(missingchillerproductscategory)
 				missingcategorydata.setTaggedchillersremarks(taggedchillerremark)
 				for(int j=0; j<ProjectConstants.missingshopdatainfo.size(); j++){
-					if(ProjectConstants.missingshopdatainfo.get(j).getShopname().equalsIgnoreCase(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+					if(ProjectConstants.missingshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
 						ProjectConstants.missingshopdatainfo.get(j).setMissingCategoriesData(missingcategorydata, assettype)
 						break
 					}
@@ -833,7 +833,7 @@ public class ChillerProductsDataKeywords {
 			taggedchillerremark.setMissingchillerproductscategories(missingchillerproductscategory)
 			missingcategorydata.setTaggedchillersremarks(taggedchillerremark)
 			for(int j=0; j<ProjectConstants.missingshopdatainfo.size(); j++){
-				if(ProjectConstants.missingshopdatainfo.get(j).getShopname().equalsIgnoreCase(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+				if(ProjectConstants.missingshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
 					ProjectConstants.missingshopdatainfo.get(j).setMissingCategoriesData(missingcategorydata, assettype)
 					break
 				}
@@ -869,7 +869,7 @@ public class ChillerProductsDataKeywords {
 			taggedchillerremark.setMissingchillerproductscategories(missingchillerproductscategory)
 			missingcategorydata.setTaggedchillersremarks(taggedchillerremark)
 			for(int j=0; j<ProjectConstants.missingshopdatainfo.size(); j++){
-				if(ProjectConstants.missingshopdatainfo.get(j).getShopname().equalsIgnoreCase(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+				if(ProjectConstants.missingshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
 					ProjectConstants.missingshopdatainfo.get(j).setMissingCategoriesData(missingcategorydata, assettype)
 					break
 				}
@@ -898,7 +898,7 @@ public class ChillerProductsDataKeywords {
 		taggedchillerremarks.setVisitedchillerproductscategories(visitedchillerproductscategory)
 		visitedcategorydata.setTaggedchillersremark(taggedchillerremarks)
 		for(int i=0; i< ProjectConstants.visitedshopdatainfo.size(); i++){
-			if(ProjectConstants.visitedshopdatainfo.get(i).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)){
+			if(ProjectConstants.visitedshopdatainfo.get(i).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.visitedshopdatainfo.get(i).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
 				VisitedShopDataInfo visitedshopdata = ProjectConstants.visitedshopdatainfo.get(i)
 				ArrayList<VisitedCategoryData> visitedcategoriesdata = visitedshopdata.getVisitedcategoriesdata()
 				if(visitedcategoriesdata.size() != 0){

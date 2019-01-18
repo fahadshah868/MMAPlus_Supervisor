@@ -41,7 +41,6 @@ public class WorkActions {
 		for(int i=1; i<= totalactions; i++){
 			MobileElement action = ProjectConstants.DRIVER.findElementByXPath("//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.ListView[1]/android.widget.LinearLayout["+i+"]/android.widget.TextView[1]")
 			String action_text = action.getText()
-			ProjectConstants.SUB_WORKINGACTION = action_text
 			if(action_text.equalsIgnoreCase(_subaction)){
 				ProjectConstants.DRIVER.findElementByXPath("//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.ListView[1]/android.widget.LinearLayout["+i+"]").click()
 				ProjectConstants.SHOP_ATTEMPT = ProjectConstants.SHOP_ATTEMPT + 1
@@ -51,39 +50,33 @@ public class WorkActions {
 	}
 	@Keyword
 	def selectRoute(){
-		Calendar calendar = Calendar.getInstance()
-		int day = calendar.get(Calendar.DAY_OF_WEEK)
-		if(day == 1){
-			findroute("sunday")
-		}
-		else if(day == 2){
-			findroute("monday")
-		}
-		else if(day == 3){
-			findroute("tuesday")
-		}
-		else if(day == 4){
-			findroute("wednesday")
-		}
-		else if(day == 5){
-			findroute("thursday")
-		}
-		else if(day == 6){
-			findroute("friday")
-		}
-		else if(day == 7){
-			findroute("saturday")
+		MobileElement route = ProjectConstants.DRIVER.findElementByXPath("//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.ListView[1]/android.widget.LinearLayout[1]/android.widget.TextView[1]")
+		String route_text = route.getText()
+		ProjectConstants.CURRENTVISITING_ROUTE = route_text
+		ProjectConstants.DRIVER.findElementByXPath("//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.ListView[1]/android.widget.LinearLayout[1]").click()
+	}
+	@Keyword
+	def selectSameRouteForDifferentWorkActions(String _route){
+		int totalroutes = ProjectConstants.DRIVER.findElementsByXPath("//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.ListView[1]/*").size()
+		for(int i=1; i<= totalroutes; i++){
+			MobileElement route = ProjectConstants.DRIVER.findElementByXPath("//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.ListView[1]/android.widget.LinearLayout["+i+"]/android.widget.TextView[1]")
+			String route_text = route.getText()
+			if(route_text.equalsIgnoreCase(_route)){
+				ProjectConstants.DRIVER.findElementByXPath("//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.ListView[1]/android.widget.LinearLayout["+i+"]").click()
+				break
+			}
 		}
 	}
-	def findroute(_route){
-		int totalroutes = ProjectConstants.DRIVER.findElementsByXPath("//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.ListView[1]/*").size()
-		 for(int i=1; i<= totalroutes; i++){
-			 MobileElement route = ProjectConstants.DRIVER.findElementByXPath("//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.ListView[1]/android.widget.LinearLayout["+i+"]/android.widget.TextView[1]")
-			 String route_text = route.getText()
-			 if(route_text.equalsIgnoreCase(_route)){
-				 ProjectConstants.DRIVER.findElementByXPath("//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.ListView[1]/android.widget.LinearLayout["+i+"]").click()
-				 break
-			 }
-		 }
+	@Keyword
+	def validateShopListScreenForUnCapturedShops(){
+		if(Mobile.verifyElementExist(findTestObject("Object Repository/WorkActions/Validate_NoDataAvailable_Popup"), 10, FailureHandling.OPTIONAL)){
+			Mobile.tap(findTestObject('Object Repository/CommonScreenElements/InfoPopUp_OKButton', [('package') : ProjectConstants.PACKAGENAME]), 0)
+		}
+		else{
+			Mobile.verifyElementVisible(findTestObject('Validate_UncapturedShopsList_Screen', [('package') : ProjectConstants.PACKAGENAME]), 100)
+			Mobile.verifyElementText(findTestObject('Validate_UncapturedShopsList_Screen', [('package') : ProjectConstants.PACKAGENAME]), 'Uncaptured Shops')
+			Mobile.pressBack()
+			Mobile.verifyElementText(findTestObject('WorkActions/Validate_SubWorkActionsScreen'), 'Select')
+		}
 	}
 }
