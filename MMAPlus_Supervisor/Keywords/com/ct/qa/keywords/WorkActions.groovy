@@ -69,11 +69,11 @@ public class WorkActions {
 	}
 	@Keyword
 	def validateShopListScreenForUnCapturedShops(){
-		if(Mobile.verifyElementExist(findTestObject("Object Repository/WorkActions/Validate_NoDataAvailable_Popup"), 10, FailureHandling.OPTIONAL)){
+		if(Mobile.verifyElementExist(findTestObject("Object Repository/WorkActions/Validate_NoDataAvailable_Popup", [('package') : ProjectConstants.PACKAGENAME]), 10, FailureHandling.OPTIONAL)){
 			Mobile.tap(findTestObject('Object Repository/CommonScreenElements/InfoPopUp_OKButton', [('package') : ProjectConstants.PACKAGENAME]), 0)
 		}
 		else{
-			Mobile.verifyElementVisible(findTestObject('Validate_UncapturedShopsList_Screen', [('package') : ProjectConstants.PACKAGENAME]), 100)
+			Mobile.verifyElementExist(findTestObject('Validate_UncapturedShopsList_Screen', [('package') : ProjectConstants.PACKAGENAME]), 100)
 			Mobile.verifyElementText(findTestObject('Validate_UncapturedShopsList_Screen', [('package') : ProjectConstants.PACKAGENAME]), 'Uncaptured Shops')
 			Mobile.pressBack()
 			Mobile.verifyElementText(findTestObject('WorkActions/Validate_SubWorkActionsScreen'), 'Select')

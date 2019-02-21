@@ -31,7 +31,7 @@ public class SurveyKeywords {
 		UnmatchedItems unmatcheditems = CompareDataKeywords.compareSurveyQuestionCategories()
 		if(unmatcheditems.getStatus() == 2){
 			for(int j=0; j<ProjectConstants.missingshopdatainfo.size(); j++){
-				if(ProjectConstants.missingshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {	
+				if(ProjectConstants.missingshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
 					missingcategory.setMaincategory(ProjectConstants.CURRENTVISITING_MAINCATEGORY)
 					missingcategory.setMissing_auditquestioncategories(unmatcheditems.getItems())
 					missingcategory.setMissing_auditquestioncategories_errormessage(ProjectConstants.MESSAGEFOR_ITEMSARE_NOTMATCH)
@@ -44,7 +44,7 @@ public class SurveyKeywords {
 		}
 		else if(unmatcheditems.getStatus() == 1){
 			for(int j=0; j<ProjectConstants.missingshopdatainfo.size(); j++){
-				if(ProjectConstants.missingshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {	
+				if(ProjectConstants.missingshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
 					missingcategory.setMaincategory(ProjectConstants.CURRENTVISITING_MAINCATEGORY)
 					missingcategory.setMissing_auditquestioncategories(unmatcheditems.getItems())
 					missingcategory.setMissing_auditquestioncategories_errormessage(ProjectConstants.MESSAGEFOR_ITEMSARE_MORE)
@@ -57,7 +57,8 @@ public class SurveyKeywords {
 		}
 		else if(unmatcheditems.getStatus() == -1){
 			for(int j=0; j<ProjectConstants.missingshopdatainfo.size(); j++){
-				if(ProjectConstants.missingshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {	missingcategory.setMaincategory(ProjectConstants.CURRENTVISITING_MAINCATEGORY)
+				if(ProjectConstants.missingshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+					missingcategory.setMaincategory(ProjectConstants.CURRENTVISITING_MAINCATEGORY)
 					missingcategory.setMaincategory(ProjectConstants.CURRENTVISITING_MAINCATEGORY)
 					missingcategory.setMissing_auditquestioncategories(unmatcheditems.getItems())
 					missingcategory.setMissing_auditquestioncategories_errormessage(ProjectConstants.MESSAGEFOR_ITEMSARE_MISSING)
@@ -194,7 +195,8 @@ public class SurveyKeywords {
 		UnmatchedItems unmatcheditems = CompareDataKeywords.compareLists(_expectedquestions, displayedquestions)
 		if(unmatcheditems.getStatus() == 2){
 			for(int j=0; j<ProjectConstants.missingshopdatainfo.size(); j++){
-				if(ProjectConstants.missingshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {	missingcategory.setMaincategory(ProjectConstants.CURRENTVISITING_MAINCATEGORY)
+				if(ProjectConstants.missingshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+					missingcategory.setMaincategory(ProjectConstants.CURRENTVISITING_MAINCATEGORY)
 					missingcategory.setMaincategory(ProjectConstants.CURRENTVISITING_MAINCATEGORY)
 					missingcategory.setQuestionCategory(ProjectConstants.CURRENTVISITING_QUESTIONCATEGORY)
 					missingcategory.setMissing_auditquestions(unmatcheditems.getItems())
@@ -208,7 +210,8 @@ public class SurveyKeywords {
 		}
 		else if(unmatcheditems.getStatus() == 1){
 			for(int j=0; j<ProjectConstants.missingshopdatainfo.size(); j++){
-				if(ProjectConstants.missingshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {	missingcategory.setMaincategory(ProjectConstants.CURRENTVISITING_MAINCATEGORY)
+				if(ProjectConstants.missingshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+					missingcategory.setMaincategory(ProjectConstants.CURRENTVISITING_MAINCATEGORY)
 					missingcategory.setMaincategory(ProjectConstants.CURRENTVISITING_MAINCATEGORY)
 					missingcategory.setQuestionCategory(ProjectConstants.CURRENTVISITING_QUESTIONCATEGORY)
 					missingcategory.setMissing_auditquestions(unmatcheditems.getItems())
@@ -222,7 +225,8 @@ public class SurveyKeywords {
 		}
 		else if(unmatcheditems.getStatus() == -1){
 			for(int j=0; j<ProjectConstants.missingshopdatainfo.size(); j++){
-				if(ProjectConstants.missingshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {	missingcategory.setMaincategory(ProjectConstants.CURRENTVISITING_MAINCATEGORY)
+				if(ProjectConstants.missingshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+					missingcategory.setMaincategory(ProjectConstants.CURRENTVISITING_MAINCATEGORY)
 					missingcategory.setMaincategory(ProjectConstants.CURRENTVISITING_MAINCATEGORY)
 					missingcategory.setQuestionCategory(ProjectConstants.CURRENTVISITING_QUESTIONCATEGORY)
 					missingcategory.setMissing_auditquestions(unmatcheditems.getItems())
@@ -348,7 +352,8 @@ public class SurveyKeywords {
 		UnmatchedItems unmatcheditems = CompareDataKeywords.compareLists(_expectedquestions, displayedquestions)
 		if(unmatcheditems.getStatus() == 2){
 			for(int j=0; j<ProjectConstants.missingshopdatainfo.size(); j++){
-				if(ProjectConstants.missingshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {	missingcategory.setMaincategory(ProjectConstants.CURRENTVISITING_MAINCATEGORY)
+				if(ProjectConstants.missingshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+					missingcategory.setMaincategory(ProjectConstants.CURRENTVISITING_MAINCATEGORY)
 					missingcategory.setMaincategory(ProjectConstants.CURRENTVISITING_MAINCATEGORY)
 					missingcategory.setQuestionCategory(ProjectConstants.CURRENTVISITING_QUESTIONCATEGORY)
 					missingcategory.setMissing_auditquestions(unmatcheditems.getItems())
@@ -362,7 +367,8 @@ public class SurveyKeywords {
 		}
 		else if(unmatcheditems.getStatus() == 1){
 			for(int j=0; j<ProjectConstants.missingshopdatainfo.size(); j++){
-				if(ProjectConstants.missingshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {	missingcategory.setMaincategory(ProjectConstants.CURRENTVISITING_MAINCATEGORY)
+				if(ProjectConstants.missingshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+					missingcategory.setMaincategory(ProjectConstants.CURRENTVISITING_MAINCATEGORY)
 					missingcategory.setMaincategory(ProjectConstants.CURRENTVISITING_MAINCATEGORY)
 					missingcategory.setQuestionCategory(ProjectConstants.CURRENTVISITING_QUESTIONCATEGORY)
 					missingcategory.setMissing_auditquestions(unmatcheditems.getItems())
@@ -376,7 +382,8 @@ public class SurveyKeywords {
 		}
 		else if(unmatcheditems.getStatus() == -1){
 			for(int j=0; j<ProjectConstants.missingshopdatainfo.size(); j++){
-				if(ProjectConstants.missingshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {	missingcategory.setMaincategory(ProjectConstants.CURRENTVISITING_MAINCATEGORY)
+				if(ProjectConstants.missingshopdatainfo.get(j).getWorkingaction().equals(ProjectConstants.WORKING_ACTION) && ProjectConstants.missingshopdatainfo.get(j).getShopname().equals(ProjectConstants.CURRENTVISITING_SHOPNAME)) {
+					missingcategory.setMaincategory(ProjectConstants.CURRENTVISITING_MAINCATEGORY)
 					missingcategory.setMaincategory(ProjectConstants.CURRENTVISITING_MAINCATEGORY)
 					missingcategory.setQuestionCategory(ProjectConstants.CURRENTVISITING_QUESTIONCATEGORY)
 					missingcategory.setMissing_auditquestions(unmatcheditems.getItems())

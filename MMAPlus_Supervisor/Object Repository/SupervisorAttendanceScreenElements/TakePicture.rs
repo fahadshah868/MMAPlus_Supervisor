@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'android.widget.ImageView' and @instance = '1' and @resource-id = 'com.concavetech.bloc:id/attendance_image']</value>
+         <value>//*[@class = 'android.widget.ImageView' and @instance = '1' and @resource-id = '${package}:id/attendance_image']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -31,14 +31,14 @@
       <matchCondition>equals</matchCondition>
       <name>resource-id</name>
       <type>Main</type>
-      <value>com.concavetech.bloc:id/attendance_image</value>
+      <value>${package}:id/attendance_image</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>package</name>
       <type>Main</type>
-      <value>com.concavetech.bloc</value>
+      <value>${package}</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

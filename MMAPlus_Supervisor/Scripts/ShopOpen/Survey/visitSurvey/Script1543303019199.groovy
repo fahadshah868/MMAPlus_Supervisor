@@ -21,5 +21,5 @@ CustomKeywords.'com.ct.qa.keywords.SurveyKeywords.visitQuestionCategories'(1)
 
 Mobile.pressBack()
 
-Mobile.verifyElementExist(findTestObject('ShopOpen/Validate_ShopCategoriesListScreen'), 0)
+Mobile.verifyElementExist(findTestObject('ShopOpen/Validate_ShopCategoriesListScreen', [('package') : ProjectConstants.PACKAGENAME]), 0)
 

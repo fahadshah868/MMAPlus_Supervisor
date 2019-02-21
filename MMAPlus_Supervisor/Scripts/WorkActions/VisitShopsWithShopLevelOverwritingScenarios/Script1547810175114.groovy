@@ -15,19 +15,19 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.verifyElementVisible(findTestObject('WorkActions/validate_WorkActionsScreen'), 100)
+Mobile.verifyElementVisible(findTestObject('WorkActions/validate_WorkActionsScreen', [('package') : ProjectConstants.PACKAGENAME]), 100)
 
-Mobile.verifyElementText(findTestObject('WorkActions/validate_WorkActionsScreen'), 'Select')
+Mobile.verifyElementText(findTestObject('WorkActions/validate_WorkActionsScreen', [('package') : ProjectConstants.PACKAGENAME]), 'Select')
 
 CustomKeywords.'com.ct.qa.keywords.WorkActions.selectAction'('WW')
 
-Mobile.verifyElementText(findTestObject('WorkActions/Validate_SubWorkActionsScreen'), 'Select')
+Mobile.verifyElementText(findTestObject('WorkActions/Validate_SubWorkActionsScreen', [('package') : ProjectConstants.PACKAGENAME]), 'Select')
 
 CustomKeywords.'com.ct.qa.keywords.WorkActions.selectSubAction'('Route')
 
-Mobile.verifyElementVisible(findTestObject('WorkActions/Validate_RouteListScreen'), 100)
+Mobile.verifyElementVisible(findTestObject('WorkActions/Validate_RouteListScreen', [('package') : ProjectConstants.PACKAGENAME]), 100)
 
-Mobile.verifyElementText(findTestObject('WorkActions/Validate_RouteListScreen'), 'Route LIST')
+Mobile.verifyElementText(findTestObject('WorkActions/Validate_RouteListScreen', [('package') : ProjectConstants.PACKAGENAME]), 'Route LIST')
 
 CustomKeywords.'com.ct.qa.keywords.WorkActions.selectRoute'()
 

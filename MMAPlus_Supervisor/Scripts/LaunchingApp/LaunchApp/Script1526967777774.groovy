@@ -24,7 +24,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 'launch application'
-Mobile.startApplication('F:\\QA_Automation\\Builds\\mma_plus_live_supervisor_011118_v150.apk', false)
+Mobile.startApplication('F:\\QA_Automation\\Builds\\mma_plus_supervisor_local_v150_190219.apk', false)
 
 'delay of 5 seconds'
 MobileBuiltInKeywords.delay(5)
